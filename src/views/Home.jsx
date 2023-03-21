@@ -1,7 +1,7 @@
 export const Home = ()=>{
     return (
         <section>
-            <h1>משק בית</h1>
+            <h1 data-trans="household">household</h1>
         </section>
     )
 }

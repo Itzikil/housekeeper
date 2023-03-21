@@ -20,7 +20,7 @@ export const Receiptes = () => {
     var currItem
     return (
         <section>
-            <h2>חשבונות</h2>
+            <h2 data-trans="bills">bills</h2>
             <ul className="items-list">
                 {bills.map(bill => {
                     { currSupplier = supplierService.getSupplierById(bill.supplier._id) }
@@ -29,7 +29,7 @@ export const Receiptes = () => {
                         {itemOpen === bill._id && <div>
                             <div className='bill-head'>
                                 <h3>{currSupplier.name}</h3>
-                                <p>b.n {currSupplier.bn}</p>
+                                <p><span data-trans="b.n">b.n</span> {currSupplier.bn}</p>
                                 <a href="tel:054-260-9225">{currSupplier.phone}</a>
                             </div>
                             <div className='bill-body'>

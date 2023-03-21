@@ -17,7 +17,7 @@ export const Items = () => {
     if (!items) return <div>Loading</div>
     return (
         <section>
-            <h2>פריטים</h2>
+            <h2 data-trans="items">items</h2>
             <ul className="items-list">
                 {items.map((item) =>
                     <li key={item._id}>

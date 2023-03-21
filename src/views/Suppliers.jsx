@@ -18,7 +18,7 @@ export const Suppliers = () => {
     if (!suppliers) return <div>Loading</div>
     return (
         <section>
-            <h2>ספקים</h2>
+            <h2 data-trans="suppliers">suppliers</h2>
             <ul className="items-list">
                 {suppliers.map((supplier) =>
                     <li key={supplier._id}>
