@@ -8,8 +8,8 @@ export const AppHeader = () => {
             <NavLink to="/">משק בית</NavLink>
             <div className='nav-links'>
                 <NavLink to="/suppliers">ספק</NavLink>
-                <NavLink to="/receiptes">חשבון</NavLink>
                 <NavLink to="/items">פריט</NavLink>
+                <NavLink to="/receiptes">חשבון</NavLink>
             </div>
         </header>
     )

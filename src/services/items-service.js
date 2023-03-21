@@ -1,5 +1,6 @@
 export const itemService = {
-    loadItems
+    loadItems,
+    getItemById
 }
 
 const items = [
@@ -17,16 +18,29 @@ const items = [
         _id: 'a103',
         name: 'חמאת נורמנדי',
         'bar-code': '7290102303878',
-        bn: 512368721
     },
     {
         _id: 'a104',
-        name: 'חומוס ביתי',
+        name: 'חומוס ביתי 500 גר',
         'bar-code': '6934931906572',
-        bn: 514297514
+    },
+    {
+        _id: 'a105',
+        name: 'צדר וינטג',
+        'bar-code': '336',
+    },
+    {
+        _id: 'a106',
+        name: 'אולד אמסטרדם',
+        'bar-code': '387',
     },
 ]
 
 function loadItems() {
     return items
+}
+
+
+function getItemById(itemId) {
+    return items.filter(item => itemId === item._id)[0]
 }

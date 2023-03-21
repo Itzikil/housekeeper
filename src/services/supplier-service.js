@@ -1,5 +1,6 @@
 export const supplierService = {
-    loadSuppliers
+    loadSuppliers,
+    getSupplierById
 }
 
 const suppliers = [
@@ -43,4 +44,8 @@ const suppliers = [
 
 function loadSuppliers() {
     return suppliers
+}
+
+function getSupplierById(supplierId) {
+    return suppliers.filter(supplier => supplierId === supplier._id)[0]
 }
