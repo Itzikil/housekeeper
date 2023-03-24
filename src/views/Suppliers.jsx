@@ -1,7 +1,15 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
+import { i18Service } from "../services/i18n-service"
 import { supplierService } from "../services/supplier-service"
 
 export const Suppliers = () => {
+    useEffect(() => {
+        translate()
+    }, [])
+
+    const translate = () => {
+        i18Service.doTrans()
+    }
 
     const [suppliers, setSuppliers] = useState(supplierService.loadSuppliers())
     const [openDev, setOpenDev] = useState(false)

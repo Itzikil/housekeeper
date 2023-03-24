@@ -1,3 +1,5 @@
+import { storageService } from "./storage.service";
+
 export const i18Service = {
     doTrans,
     getTrans,
@@ -92,7 +94,7 @@ var gTrans = {
     },
 }
 
-let gCurrLang = 'en'
+let gCurrLang = storageService.load('lang') || Intl.DateTimeFormat().resolvedOptions().locale
 
 function doTrans() {
     const els = document.querySelectorAll('[data-trans]')
@@ -113,9 +115,13 @@ function getTrans(transKey) {
     return trans
 }
 
-function setLang(lang) {
-    var lang = gCurrLang === 'en' ? 'he' : 'en'
+function setLang(lang = gCurrLang) {
+    console.log(lang);
     gCurrLang = lang
+    console.log(lang);
+    if (lang === 'he') document.body.classList.add('rtl')
+    else document.body.classList.remove('rtl')
+    storageService.store('lang', gCurrLang)
 }
 
 function getTransLang() {

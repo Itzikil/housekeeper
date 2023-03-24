@@ -5,7 +5,9 @@ import language from '../assets/language.png'
 export const AppHeader = () => {
 
     const translate = () => {
-        i18Service.setLang()
+        let lang = i18Service.getTransLang()
+        lang = (lang === 'en' || lang === 'en-US') ? 'he' : 'en'
+        i18Service.setLang(lang)
         i18Service.doTrans()
     }
 

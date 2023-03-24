@@ -76,3 +76,7 @@ button:focus-visible {
 ul {
   list-style: none;
 }
+
+.rtl{
+  direction: rtl;
+}

@@ -1,9 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { billService } from '../services/bill-service'
 import { supplierService } from '../services/supplier-service'
 import { itemService } from '../services/items-service'
+import { i18Service } from '../services/i18n-service'
 
 export const Receiptes = () => {
+    useEffect(() => {
+        translate()
+    }, [])
+
+    const translate = () => {
+        i18Service.doTrans()
+    }
+
     const [bills, setBills] = useState(billService.loadBills())
     const [openDev, setOpenDev] = useState(false)
     const [itemOpen, setItemOpen] = useState()
