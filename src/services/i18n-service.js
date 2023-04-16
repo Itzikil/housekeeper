@@ -8,6 +8,54 @@ export const i18Service = {
 }
 
 var gTrans = {
+    'Total': {
+        en: 'Total',
+        he: 'סה"כ',
+    },
+    'to': {
+        en: 'to',
+        he: 'ל',
+    },
+    'city': {
+        en: 'city',
+        he: 'עיר',
+    },
+    'Fruit': {
+        en: 'Fruit',
+        he: 'פירות',
+    },
+    'פירות': {
+        en: 'Fruit',
+        he: 'פירות',
+    },
+    'Diary': {
+        en: 'Diary',
+        he: 'מוצרי חלב',
+    },
+    'מוצרי חלב': {
+        en: 'Diary',
+        he: 'מוצרי חלב',
+    },
+    'Fish': {
+        en: 'Fish',
+        he: 'דגים',
+    },
+    'דגים': {
+        en: 'Fish',
+        he: 'דגים',
+    },
+    'Vegtable': {
+        en: 'Vegtable',
+        he: 'ירקות',
+    },
+    'ירקות': {
+        en: 'Vegtable',
+        he: 'ירקות',
+    },
+    'Department': {
+        en: 'Department',
+        he: 'מחלקה',
+    },
     'bill': {
         en: 'bill',
         he: 'חשבון',

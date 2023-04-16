@@ -3,11 +3,13 @@ import { billService } from '../services/bill-service'
 import { supplierService } from '../services/supplier-service'
 import { itemService } from '../services/items-service'
 import { i18Service } from '../services/i18n-service'
+import { AdditionForm } from '../cmps/AdditionForm'
 
 export const Receiptes = () => {
     useEffect(() => {
         translate()
     }, [])
+
 
     const translate = () => {
         i18Service.doTrans()
@@ -15,10 +17,27 @@ export const Receiptes = () => {
 
     const [bills, setBills] = useState(billService.loadBills())
     const [openDev, setOpenDev] = useState(false)
+    const [openForm, setOpenForm] = useState(false)
     const [itemOpen, setItemOpen] = useState()
+    const [refresh, setResfresh] = useState(1)
+
+    // just until localstorage////////
+    useEffect(() => {
+        setBills(billService.loadBills())
+    }, [refresh])
+
+    const refreshing = () => {
+        var num = refresh
+        setResfresh(++num)
+    }
+    ////////////////////////////////
 
     const toggleDev = () => {
         setOpenDev(!openDev)
+    }
+
+    const toggleForm = () => {
+        setOpenForm(!openForm)
     }
 
     const openItem = (itemId) => {
@@ -38,7 +57,7 @@ export const Receiptes = () => {
                         {itemOpen === bill._id && <div>
                             <div className='bill-head'>
                                 <h3>{currSupplier.name}</h3>
-                                <p><span data-trans="b.n">b.n</span> {currSupplier.bn}</p>
+                                <p><span data-trans="city">city</span> {currSupplier.city}</p>
                                 <a href="tel:054-260-9225">{currSupplier.phone}</a>
                             </div>
                             <div className='bill-body'>
@@ -46,26 +65,30 @@ export const Receiptes = () => {
                                     { currItem = itemService.getItemById(item._id) }
                                     return <div key={item._id}>
                                         <div className='flex space-between flex1 align-center justify-center '>
-                                            <p className='text-start'>{currItem.name}</p>
-                                            <p className='text-center'>{item.quantity}</p>
-                                            <p className='text-end'>₪{item.price * item.quantity}</p>
+                                            <p className='text-start'>{currItem?.name}</p>
+                                            <p className='text-center'>₪{(item.price).toFixed(2)}</p>
+                                            <p className='text-center'>{item.quantity % 1 === 0 ? (item.quantity) : item.quantity.toFixed(2)}</p>
+                                            <p className='text-end'>₪{(item.price * item.quantity).toFixed(2)}</p>
                                         </div>
-                                        {item.quantity < 1 && <p>₪{item.price} ל1</p>}
+                                        {/* {item.quantity < 1 && <p>₪{item.price} <span data-trans="to"> to</span> 1</p>} */}
                                     </div>
                                 })}
                             </div>
                             <div className='flex space-between'>
-                                <h3>סה"כ</h3>
-                                <h3>₪{bill.items.reduce((acc, item) => acc + item.price, 0)}</h3>
+                                <h3 data-trans="Total">Total</h3>
+                                <h3>₪{bill.items.reduce((acc, item) => acc + (item.price * item.quantity), 0).toFixed(2)}</h3>
                             </div>
                         </div>}
                     </li>
                 }
                 )}
             </ul>
+
+            <button onClick={toggleForm}>Add new bill</button>
+            {openForm && <AdditionForm refresh={refreshing} />}
             <button onClick={toggleDev}>{!openDev ? ' למפתחים' : 'סגור'}</button>
             {openDev &&
-                <pre>
+                <pre >
                     {JSON.stringify(bills, null, 2)}
                 </pre>
             }
