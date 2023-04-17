@@ -5,7 +5,7 @@ import { itemService } from '../services/items-service'
 import { i18Service } from '../services/i18n-service'
 import { AdditionForm } from '../cmps/AdditionForm'
 
-export const Receiptes = () => {
+export const Bills = () => {
     useEffect(() => {
         translate()
     }, [])
@@ -57,18 +57,26 @@ export const Receiptes = () => {
                         {itemOpen === bill._id && <div>
                             <div className='bill-head'>
                                 <h3>{currSupplier.name}</h3>
-                                <p><span data-trans="city">city</span> {currSupplier.city}</p>
-                                <a href="tel:054-260-9225">{currSupplier.phone}</a>
+                                <p>{bill.date}</p>
+                                <p>Reference number {bill['reference number']}</p>
+                                {/* <p><span data-trans="city">city</span> {currSupplier.city}</p>
+                                <a href="tel:054-260-9225">{currSupplier.phone}</a> */}
                             </div>
                             <div className='bill-body'>
+                                <div className='flex space-between flex1 align-center justify-center '>
+                                    <p className='text-start'>Name</p>
+                                    <p className='text-center'>Quantity</p>
+                                    <p className='text-center'>Price</p>
+                                    <p className='text-end'>Total</p>
+                                </div>
                                 {bill.items.map(item => {
                                     { currItem = itemService.getItemById(item._id) }
                                     return <div key={item._id}>
                                         <div className='flex space-between flex1 align-center justify-center '>
                                             <p className='text-start'>{currItem?.name}</p>
-                                            <p className='text-center'>₪{(item.price).toFixed(2)}</p>
-                                            <p className='text-center'>{item.quantity % 1 === 0 ? (item.quantity) : item.quantity.toFixed(2)}</p>
-                                            <p className='text-end'>₪{(item.price * item.quantity).toFixed(2)}</p>
+                                            <p className='text-center'>{item.quantity % 1 === 0 ? (item.quantity) : item.quantity?.toFixed(2)}</p>
+                                            {item.price && <p className='text-center'>₪{item.price.toFixed(2)}</p>}
+                                            <p className='text-end'>₪{(item.price * item.quantity)?.toFixed(2)}</p>
                                         </div>
                                         {/* {item.quantity < 1 && <p>₪{item.price} <span data-trans="to"> to</span> 1</p>} */}
                                     </div>
@@ -76,7 +84,7 @@ export const Receiptes = () => {
                             </div>
                             <div className='flex space-between'>
                                 <h3 data-trans="Total">Total</h3>
-                                <h3>₪{bill.items.reduce((acc, item) => acc + (item.price * item.quantity), 0).toFixed(2)}</h3>
+                                <h3>₪{bill.items.reduce((acc, item) => acc + (item.price * item.quantity), 0)?.toFixed(2)}</h3>
                             </div>
                         </div>}
                     </li>

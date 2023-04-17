@@ -49,11 +49,12 @@ export const AdditionForm = ({ refresh }) => {
             default:
                 break;
         }
-
+        console.log(field);
         if (idx || idx === 0) {
             itemsLine[idx][field] = value
         }
-        else form.supplier._id = value
+        else if (field === 'supplier') form.supplier._id = value
+        else form[field] = value
 
         setForm(form => ({ ...form }))
     }
@@ -68,6 +69,9 @@ export const AdditionForm = ({ refresh }) => {
                         <option key={supplier._id + idx} value={supplier._id}>{supplier.name}</option>
                     )}
                 </select>
+                <input type="date" onChange={handleChange} value={form.date} name="date" />
+                <input type="number" onChange={handleChange} value={form.total} name="total" placeholder="Total" />
+                <input type="text" onChange={handleChange} value={form['reference number']} name="reference number" placeholder="Reference number" />
                 <label>Items</label>
                 <div className="flex column gap10">
                     {itemsLine.map((item, idx) =>
@@ -81,13 +85,14 @@ export const AdditionForm = ({ refresh }) => {
                             {/* <input type="text" onChange={(ev) => handleChange(ev, idx)} value={item.name} name="name" placeholder="Item name" /> */}
                             <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.quantity} name="quantity" placeholder="Quantity" />
                             <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.price} name="price" placeholder="Price per 1" />
+                            <p>₪{item.quantity * item.price}</p>
                             <button onClick={() => removeItemLine(idx)}>X</button>
                         </div>
                     )}
                 </div>
-                <button>Add</button>
+                <button type="button" onClick={addItemLine}>Add more item</button>
+                <button>Submit</button>
             </form>
-            <button onClick={addItemLine}>Add more item</button>
         </div>
     )
 }

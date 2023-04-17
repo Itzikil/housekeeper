@@ -9,6 +9,8 @@ export const billService = {
 const bills = [
     {
         _id: 'b101',
+        date: '2012-04-01',
+        'reference number': '12211311',
         supplier: {
             _id: '516',
         },
@@ -21,6 +23,8 @@ const bills = [
     },
     {
         _id: 'b102',
+        date: '2017-04-01',
+        'reference number': '1111111',
         supplier: {
             _id: '644',
         },
@@ -34,11 +38,14 @@ const bills = [
 function getEmptyBill() {
     return {
         supplier: { _id: '' },
+        date: '',
+        total: '',
+        'reference number': ''
     }
 }
 
 function getItemsLine() {
-    return [{ name: '', price: 0, quantity: 0 }]
+    return [{ name: '', price: '', quantity: '' }]
 }
 
 function loadBills() {
@@ -47,7 +54,7 @@ function loadBills() {
 
 function addBill(bill) {
     bill._id = makeId()
-    bills.push(bill)
+    bills.unshift(bill)
     return bills
 }
 
