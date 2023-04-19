@@ -1,0 +1,5687 @@
+[
+    {
+      "_id": "8ZvOp",
+      "date": "01/01/2023",
+      "reference number": "2500001",
+      "supplier": {
+        "_id": "503"
+      },
+      "items": [
+        {
+          "_id": "1634",
+          "price": 157,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "W9wvN",
+      "date": "01/01/2023",
+      "reference number": "2500002",
+      "supplier": {
+        "_id": "502"
+      },
+      "items": [
+        {
+          "_id": "965",
+          "price": 700,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "mDMbe",
+      "date": "01/01/2023",
+      "reference number": "2500003",
+      "supplier": {
+        "_id": "505"
+      },
+      "items": [
+        {
+          "_id": "956",
+          "price": 190.1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "QfRmH",
+      "date": "01/01/2023",
+      "reference number": "2500004",
+      "supplier": {
+        "_id": "505"
+      },
+      "items": [
+        {
+          "_id": "957",
+          "price": 86.33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "E2Eh5",
+      "date": "01/01/2023",
+      "reference number": "2500005",
+      "supplier": {
+        "_id": "641"
+      },
+      "items": [
+        {
+          "_id": "1757",
+          "price": 836.33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "2IY1c",
+      "date": "01/01/2023",
+      "reference number": "2500006",
+      "supplier": {
+        "_id": "619"
+      },
+      "items": [
+        {
+          "_id": "1803",
+          "price": 924,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "fU5Pl",
+      "date": "01/01/2023",
+      "reference number": "2500007",
+      "supplier": {
+        "_id": "602"
+      },
+      "items": [
+        {
+          "_id": "978",
+          "price": 20,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "a1sAY",
+      "date": "01/01/2023",
+      "reference number": "2500008",
+      "supplier": {
+        "_id": "542"
+      },
+      "items": [
+        {
+          "_id": "946",
+          "price": 29.9,
+          "quantity": 1
+        },
+        {
+          "_id": "947",
+          "price": 39.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1815",
+          "price": 17.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ztZ0H",
+      "date": "01/01/2023",
+      "reference number": "2500009",
+      "supplier": {
+        "_id": "583"
+      },
+      "items": [
+        {
+          "_id": "922",
+          "price": 54.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "Z1Mvb",
+      "date": "01/01/2023",
+      "reference number": "2500010",
+      "supplier": {
+        "_id": "656"
+      },
+      "items": [
+        {
+          "_id": "1746",
+          "price": 27,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "pkwBO",
+      "date": "01/01/2023",
+      "reference number": "2500011",
+      "supplier": {
+        "_id": "638"
+      },
+      "items": [
+        {
+          "_id": "968",
+          "price": 19.8,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "dubyW",
+      "date": "01/01/2023",
+      "reference number": "2500012",
+      "supplier": {
+        "_id": "592"
+      },
+      "items": [
+        {
+          "_id": "934",
+          "price": 100,
+          "quantity": 1
+        },
+        {
+          "_id": "934",
+          "price": 250,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "yp6DQ",
+      "date": "01/01/2023",
+      "reference number": "2500013",
+      "supplier": {
+        "_id": "508"
+      },
+      "items": [
+        {
+          "_id": "961",
+          "price": 83.75,
+          "quantity": 1
+        },
+        {
+          "_id": "964",
+          "price": 9.49,
+          "quantity": 1
+        },
+        {
+          "_id": "959",
+          "price": 304.64,
+          "quantity": 1
+        },
+        {
+          "_id": "960",
+          "price": 263.84,
+          "quantity": 1
+        },
+        {
+          "_id": "963",
+          "price": 38.57,
+          "quantity": 1
+        },
+        {
+          "_id": "962",
+          "price": 113.75,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "iD3hs",
+      "date": "01/01/2023",
+      "reference number": "2500014",
+      "supplier": {
+        "_id": "542"
+      },
+      "items": [
+        {
+          "_id": "946",
+          "price": 4,
+          "quantity": 1
+        },
+        {
+          "_id": "943",
+          "price": 35.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1815",
+          "price": 8,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "fKh5z",
+      "date": "05/01/2023",
+      "reference number": "2500015",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "920",
+          "price": 123,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "K6BUW",
+      "date": "05/01/2023",
+      "reference number": "2500016",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2010",
+          "price": 16,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "aVjYj",
+      "date": "04/01/2023",
+      "reference number": "2500017",
+      "supplier": {
+        "_id": "527"
+      },
+      "items": [
+        {
+          "_id": "804",
+          "price": 59.9,
+          "quantity": 1.05
+        },
+        {
+          "_id": "807",
+          "price": 71.9,
+          "quantity": 1.23
+        },
+        {
+          "_id": "907500",
+          "price": 42.9,
+          "quantity": 1.23
+        },
+        {
+          "_id": "925",
+          "price": 46.9,
+          "quantity": 1.12
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 170,
+          "quantity": 1.56
+        }
+      ]
+    },
+    {
+      "_id": "fmc2R",
+      "date": "04/01/2023",
+      "reference number": "2500018",
+      "supplier": {
+        "_id": "629"
+      },
+      "items": [
+        {
+          "_id": "195537",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "72963753",
+          "price": 4.7,
+          "quantity": 2
+        },
+        {
+          "_id": "253220",
+          "price": 11.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29002E+12",
+          "price": 15.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 3.9,
+          "quantity": 4
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 6.23,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "4127336",
+          "price": 5.8,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 23.93,
+          "quantity": 1.5
+        },
+        {
+          "_id": "43111",
+          "price": 8.5,
+          "quantity": 2
+        },
+        {
+          "_id": "7.2901E+12",
+          "price": 6.4,
+          "quantity": 4
+        },
+        {
+          "_id": "382227",
+          "price": 0.1,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "5hTh1",
+      "date": "04/01/2023",
+      "reference number": "2500019",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "32",
+          "price": 8.8,
+          "quantity": 0.85
+        },
+        {
+          "_id": "291",
+          "price": 18.8,
+          "quantity": 1.27
+        },
+        {
+          "_id": "192",
+          "price": 10,
+          "quantity": 2
+        },
+        {
+          "_id": "140",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "275",
+          "price": 8,
+          "quantity": 1
+        },
+        {
+          "_id": "170",
+          "price": 8,
+          "quantity": 1
+        },
+        {
+          "_id": "48",
+          "price": 8,
+          "quantity": 1
+        },
+        {
+          "_id": "38",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "28",
+          "price": 7.8,
+          "quantity": 2
+        },
+        {
+          "_id": "29",
+          "price": 7.8,
+          "quantity": 1.74
+        },
+        {
+          "_id": "40",
+          "price": 11.8,
+          "quantity": 1.73
+        },
+        {
+          "_id": "54",
+          "price": 19.8,
+          "quantity": 0.45
+        },
+        {
+          "_id": "251",
+          "price": 14.8,
+          "quantity": 1.28
+        },
+        {
+          "_id": "90",
+          "price": 8.8,
+          "quantity": 1.9
+        },
+        {
+          "_id": "279",
+          "price": 19.8,
+          "quantity": 0.45
+        },
+        {
+          "_id": "70",
+          "price": 14.8,
+          "quantity": 0.44
+        },
+        {
+          "_id": "37",
+          "price": 11.8,
+          "quantity": 0.65
+        },
+        {
+          "_id": "50",
+          "price": 14.8,
+          "quantity": 0.49
+        },
+        {
+          "_id": "288",
+          "price": 17.8,
+          "quantity": 0.56
+        },
+        {
+          "_id": "250",
+          "price": 11.8,
+          "quantity": 0.78
+        },
+        {
+          "_id": "215",
+          "price": 9.8,
+          "quantity": 0.51
+        },
+        {
+          "_id": "14562",
+          "price": 5.8,
+          "quantity": 0.82
+        },
+        {
+          "_id": "55",
+          "price": 11.8,
+          "quantity": 0.26
+        },
+        {
+          "_id": "240",
+          "price": 12.8,
+          "quantity": 1.51
+        },
+        {
+          "_id": "230",
+          "price": 12,
+          "quantity": 1
+        },
+        {
+          "_id": "4938",
+          "price": 15,
+          "quantity": 1
+        },
+        {
+          "_id": "267",
+          "price": 8,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "buD8i",
+      "date": "10/01/2023",
+      "reference number": "2500020",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "403",
+          "price": 99,
+          "quantity": 0.21
+        },
+        {
+          "_id": "433",
+          "price": 59,
+          "quantity": 0.13
+        },
+        {
+          "_id": "401",
+          "price": 89,
+          "quantity": 0.23
+        },
+        {
+          "_id": "406",
+          "price": 39,
+          "quantity": 0.35
+        }
+      ]
+    },
+    {
+      "_id": "hthoC",
+      "date": "11/01/2023",
+      "reference number": "2500021",
+      "supplier": {
+        "_id": "670"
+      },
+      "items": [
+        {
+          "_id": "1637",
+          "price": 4680,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "aPTCk",
+      "date": "12/01/2023",
+      "reference number": "2500022",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2004",
+          "price": 4,
+          "quantity": 3
+        },
+        {
+          "_id": "2025",
+          "price": 18,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "JBiU2",
+      "date": "12/01/2023",
+      "reference number": "2500023",
+      "supplier": {
+        "_id": "642"
+      },
+      "items": [
+        {
+          "_id": "1694",
+          "price": 40,
+          "quantity": 3
+        },
+        {
+          "_id": "1694",
+          "price": 29.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29754E+12",
+          "price": 70,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "uHGK3",
+      "date": "12/01/2023",
+      "reference number": "2500024",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "130",
+          "price": 12.9,
+          "quantity": 1
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        },
+        {
+          "_id": "250",
+          "price": 7.9,
+          "quantity": 0.87
+        },
+        {
+          "_id": "52",
+          "price": 9.9,
+          "quantity": 0.36
+        },
+        {
+          "_id": "32",
+          "price": 7.9,
+          "quantity": 1.01
+        },
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "14562",
+          "price": 6.9,
+          "quantity": 0.78
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "13237",
+          "price": 7.9,
+          "quantity": 1
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.14
+        },
+        {
+          "_id": "2709784",
+          "price": 6.9,
+          "quantity": 0.76
+        },
+        {
+          "_id": "288",
+          "price": 12.9,
+          "quantity": 0.59
+        },
+        {
+          "_id": "243",
+          "price": 19.9,
+          "quantity": 1.19
+        },
+        {
+          "_id": "287",
+          "price": 6.9,
+          "quantity": 0.9
+        },
+        {
+          "_id": "28",
+          "price": 5.9,
+          "quantity": 2.9
+        },
+        {
+          "_id": "70",
+          "price": 7.9,
+          "quantity": 0.91
+        },
+        {
+          "_id": "285",
+          "price": 21.9,
+          "quantity": 1
+        },
+        {
+          "_id": "279",
+          "price": 13.9,
+          "quantity": 0.27
+        },
+        {
+          "_id": "54",
+          "price": 8.9,
+          "quantity": 0.61
+        },
+        {
+          "_id": "50",
+          "price": 7.9,
+          "quantity": 0.58
+        }
+      ]
+    },
+    {
+      "_id": "NGBrV",
+      "date": "12/01/2023",
+      "reference number": "2500025",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "427",
+          "price": 99,
+          "quantity": 0.19
+        },
+        {
+          "_id": "403",
+          "price": 100,
+          "quantity": 0.35
+        },
+        {
+          "_id": "9034",
+          "price": 89,
+          "quantity": 0.2
+        },
+        {
+          "_id": "411",
+          "price": 65,
+          "quantity": 0.53
+        },
+        {
+          "_id": "409",
+          "price": 90,
+          "quantity": 0.47
+        },
+        {
+          "_id": "406",
+          "price": 48,
+          "quantity": 0.3
+        },
+        {
+          "_id": "401",
+          "price": 99,
+          "quantity": 0.4
+        },
+        {
+          "_id": "402",
+          "price": 99,
+          "quantity": 0.32
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 17.9,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "keZjF",
+      "date": "12/01/2023",
+      "reference number": "2500026",
+      "supplier": {
+        "_id": "523"
+      },
+      "items": [
+        {
+          "_id": "31",
+          "price": 155,
+          "quantity": 1.53
+        },
+        {
+          "_id": "39",
+          "price": 139,
+          "quantity": 0.93
+        },
+        {
+          "_id": "1127018",
+          "price": 100,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "CilXn",
+      "date": "12/01/2023",
+      "reference number": "2500027",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "326",
+          "price": 159,
+          "quantity": 0.24
+        },
+        {
+          "_id": "336",
+          "price": 159,
+          "quantity": 0.07
+        },
+        {
+          "_id": "318",
+          "price": 199,
+          "quantity": 0.09
+        },
+        {
+          "_id": "260",
+          "price": 100,
+          "quantity": 0.24
+        },
+        {
+          "_id": "24",
+          "price": 42,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "dfUbv",
+      "date": "12/01/2023",
+      "reference number": "2500028",
+      "supplier": {
+        "_id": "655"
+      },
+      "items": [
+        {
+          "_id": "7.29001E+12",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1713",
+          "price": 69.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 27,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 27,
+          "quantity": 1
+        },
+        {
+          "_id": "8.72106E+12",
+          "price": 7,
+          "quantity": 2
+        },
+        {
+          "_id": "60156",
+          "price": 9,
+          "quantity": 2
+        },
+        {
+          "_id": "504",
+          "price": 7.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1037",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "5427756",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "5.41315E+12",
+          "price": 49.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 10.7,
+          "quantity": 2
+        },
+        {
+          "_id": "72753",
+          "price": 29.9,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29002E+12",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "2360285",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "288086",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "5424113",
+          "price": 10.7,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 18.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1744",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "3127788",
+          "price": 29.9,
+          "quantity": 1
+        },
+        {
+          "_id": "187921",
+          "price": 30,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 6,
+          "quantity": 2
+        },
+        {
+          "_id": "7.2901E+12",
+          "price": 12.5,
+          "quantity": 2
+        },
+        {
+          "_id": "7.2901E+12",
+          "price": 10.7,
+          "quantity": 1
+        },
+        {
+          "_id": "7.2901E+12",
+          "price": 11.9,
+          "quantity": 2
+        },
+        {
+          "_id": "7.2901E+12",
+          "price": 11.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 24.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 19.95,
+          "quantity": 2
+        },
+        {
+          "_id": "7.2901E+12",
+          "price": 21.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1044",
+          "price": 12.9,
+          "quantity": 1
+        },
+        {
+          "_id": "3060009",
+          "price": 4.9,
+          "quantity": 5
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 18,
+          "quantity": 2
+        },
+        {
+          "_id": "3643646",
+          "price": 4.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 19.9,
+          "quantity": 3
+        },
+        {
+          "_id": "2007241",
+          "price": 5.9,
+          "quantity": 1
+        },
+        {
+          "_id": "8.00184E+12",
+          "price": 29.9,
+          "quantity": 2
+        },
+        {
+          "_id": "2374640",
+          "price": 8.9,
+          "quantity": 2
+        },
+        {
+          "_id": "3222070",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "8.0768E+12",
+          "price": 5.9,
+          "quantity": 2
+        },
+        {
+          "_id": "3.08911E+11",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 9,
+          "quantity": 2
+        },
+        {
+          "_id": "60163",
+          "price": 3,
+          "quantity": 3.33
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 8.33,
+          "quantity": 3
+        },
+        {
+          "_id": "7.29002E+12",
+          "price": 6.5,
+          "quantity": 1
+        },
+        {
+          "_id": "7.1007E+11",
+          "price": 15.9,
+          "quantity": 1
+        },
+        {
+          "_id": "4165017",
+          "price": 8.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 6.4,
+          "quantity": 8
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 11.5,
+          "quantity": 1
+        },
+        {
+          "_id": "43111",
+          "price": 8.2,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 16.9,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 9.3,
+          "quantity": 1
+        },
+        {
+          "_id": "2500",
+          "price": 29.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 9.7,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 13.5,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 32.9,
+          "quantity": 1
+        },
+        {
+          "_id": "2920311",
+          "price": 99,
+          "quantity": 0.14
+        },
+        {
+          "_id": "8.69064E+12",
+          "price": 15.9,
+          "quantity": 3
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29012E+12",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "3485680",
+          "price": 7.9,
+          "quantity": 2
+        },
+        {
+          "_id": "253220",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "60576",
+          "price": 4.9,
+          "quantity": 1
+        },
+        {
+          "_id": "414",
+          "price": 16.9,
+          "quantity": 1
+        },
+        {
+          "_id": "1690",
+          "price": 9.9,
+          "quantity": 2
+        },
+        {
+          "_id": "5.20135E+12",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "5.41318E+12",
+          "price": 799,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "HFrKr",
+      "date": "01/01/2023",
+      "reference number": "2500029",
+      "supplier": {
+        "_id": "506"
+      },
+      "items": [
+        {
+          "_id": "917",
+          "price": 840.75,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ubKPH",
+      "date": "11/01/2023",
+      "reference number": "2500030",
+      "supplier": {
+        "_id": "576"
+      },
+      "items": [
+        {
+          "_id": "933",
+          "price": 39.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "x4X1L",
+      "date": "19/01/2023",
+      "reference number": "2500031",
+      "supplier": {
+        "_id": "680"
+      },
+      "items": [
+        {
+          "_id": "8012",
+          "price": 28080,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "SU27I",
+      "date": "20/01/2023",
+      "reference number": "2500032",
+      "supplier": {
+        "_id": "680"
+      },
+      "items": [
+        {
+          "_id": "8017",
+          "price": 209,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ZE3ee",
+      "date": "19/01/2023",
+      "reference number": "2500033",
+      "supplier": {
+        "_id": "579"
+      },
+      "items": [
+        {
+          "_id": "955",
+          "price": 50,
+          "quantity": 4.5
+        }
+      ]
+    },
+    {
+      "_id": "2bzPl",
+      "date": "20/01/2023",
+      "reference number": "2500034",
+      "supplier": {
+        "_id": "616"
+      },
+      "items": [
+        {
+          "_id": "1013",
+          "price": 200,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "7h0cO",
+      "date": "18/01/2023",
+      "reference number": "2500035",
+      "supplier": {
+        "_id": "577"
+      },
+      "items": [
+        {
+          "_id": "932",
+          "price": 121,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "tKS8b",
+      "date": "20/01/2023",
+      "reference number": "2500036",
+      "supplier": {
+        "_id": "549"
+      },
+      "items": [
+        {
+          "_id": "900",
+          "price": 8.07,
+          "quantity": 68
+        },
+        {
+          "_id": "902",
+          "price": 19,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "6hvPe",
+      "date": "20/01/2023",
+      "reference number": "2500037",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2010",
+          "price": 16,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "b5jFo",
+      "date": "20/01/2023",
+      "reference number": "2500038",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "74375",
+          "price": 12,
+          "quantity": 1
+        },
+        {
+          "_id": "1799",
+          "price": 60,
+          "quantity": 1
+        },
+        {
+          "_id": "1798",
+          "price": 25,
+          "quantity": 1
+        },
+        {
+          "_id": "1819",
+          "price": 40,
+          "quantity": 0.73
+        }
+      ]
+    },
+    {
+      "_id": "aUhRu",
+      "date": "20/01/2023",
+      "reference number": "2500039",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2009",
+          "price": 44,
+          "quantity": 1
+        },
+        {
+          "_id": "2015",
+          "price": 38,
+          "quantity": 1
+        },
+        {
+          "_id": "2025",
+          "price": 54,
+          "quantity": 0.33
+        }
+      ]
+    },
+    {
+      "_id": "U4IKJ",
+      "date": "20/01/2023",
+      "reference number": "2500040",
+      "supplier": {
+        "_id": "642"
+      },
+      "items": [
+        {
+          "_id": "503",
+          "price": 30,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "7dsD5",
+      "date": "20/01/2023",
+      "reference number": "2500041",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "822",
+          "price": 89,
+          "quantity": 1.1
+        },
+        {
+          "_id": "8493413",
+          "price": 8,
+          "quantity": 1
+        },
+        {
+          "_id": "817",
+          "price": 89,
+          "quantity": 2.67
+        },
+        {
+          "_id": "809",
+          "price": 41.9,
+          "quantity": 1.51
+        },
+        {
+          "_id": "830",
+          "price": 79,
+          "quantity": 0.58
+        }
+      ]
+    },
+    {
+      "_id": "I6kCc",
+      "date": "20/01/2023",
+      "reference number": "2500042",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "607",
+          "price": 25,
+          "quantity": 1
+        },
+        {
+          "_id": "4562",
+          "price": 15,
+          "quantity": 1
+        },
+        {
+          "_id": "1618",
+          "price": 18,
+          "quantity": 1
+        },
+        {
+          "_id": "127",
+          "price": 25,
+          "quantity": 1
+        },
+        {
+          "_id": "24",
+          "price": 42,
+          "quantity": 1
+        },
+        {
+          "_id": "2025",
+          "price": 18,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "HlFKw",
+      "date": "20/01/2023",
+      "reference number": "2500043",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "3485505",
+          "price": 25,
+          "quantity": 0.2
+        },
+        {
+          "_id": "3485505",
+          "price": 25,
+          "quantity": 0.15
+        },
+        {
+          "_id": "3485536",
+          "price": 20,
+          "quantity": 0.23
+        },
+        {
+          "_id": "3486533",
+          "price": 119,
+          "quantity": 0.2
+        },
+        {
+          "_id": "3485345",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "402",
+          "price": 99,
+          "quantity": 0.32
+        },
+        {
+          "_id": "408",
+          "price": 30,
+          "quantity": 0.25
+        },
+        {
+          "_id": "401",
+          "price": 99,
+          "quantity": 0.4
+        },
+        {
+          "_id": "433",
+          "price": 54,
+          "quantity": 0.28
+        },
+        {
+          "_id": "447",
+          "price": 40,
+          "quantity": 0.27
+        },
+        {
+          "_id": "409",
+          "price": 90,
+          "quantity": 0.57
+        },
+        {
+          "_id": "406",
+          "price": 48,
+          "quantity": 0.72
+        },
+        {
+          "_id": "403",
+          "price": 79,
+          "quantity": 0.57
+        },
+        {
+          "_id": "448",
+          "price": 79,
+          "quantity": 1.24
+        },
+        {
+          "_id": "411",
+          "price": 65,
+          "quantity": 0.81
+        }
+      ]
+    },
+    {
+      "_id": "GjkAx",
+      "date": "20/01/2023",
+      "reference number": "2500044",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "47",
+          "price": 20,
+          "quantity": 2
+        },
+        {
+          "_id": "245",
+          "price": 19.9,
+          "quantity": 1.44
+        },
+        {
+          "_id": "13237",
+          "price": 8.9,
+          "quantity": 1
+        },
+        {
+          "_id": "215",
+          "price": 8.9,
+          "quantity": 0.79
+        },
+        {
+          "_id": "90",
+          "price": 9.9,
+          "quantity": 1.63
+        },
+        {
+          "_id": "2709784",
+          "price": 6.9,
+          "quantity": 0.92
+        },
+        {
+          "_id": "288",
+          "price": 11.9,
+          "quantity": 0.63
+        },
+        {
+          "_id": "28",
+          "price": 6.9,
+          "quantity": 1.95
+        },
+        {
+          "_id": "170",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "267",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "70",
+          "price": 7.9,
+          "quantity": 1.34
+        },
+        {
+          "_id": "251",
+          "price": 6.9,
+          "quantity": 1.12
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.43
+        },
+        {
+          "_id": "265",
+          "price": 14.9,
+          "quantity": 0.22
+        },
+        {
+          "_id": "287",
+          "price": 6.9,
+          "quantity": 0.89
+        },
+        {
+          "_id": "123",
+          "price": 14.9,
+          "quantity": 0.71
+        },
+        {
+          "_id": "9951455",
+          "price": 6,
+          "quantity": 2
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 0.88
+        },
+        {
+          "_id": "30",
+          "price": 7.9,
+          "quantity": 1
+        },
+        {
+          "_id": "192",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "250",
+          "price": 7.9,
+          "quantity": 1.14
+        },
+        {
+          "_id": "75",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "27",
+          "price": 5.9,
+          "quantity": 1.45
+        },
+        {
+          "_id": "279",
+          "price": 13.9,
+          "quantity": 0.42
+        },
+        {
+          "_id": "52",
+          "price": 9.9,
+          "quantity": 0.33
+        }
+      ]
+    },
+    {
+      "_id": "gBX4Q",
+      "date": "24/01/2023",
+      "reference number": "2500045",
+      "supplier": {
+        "_id": "604"
+      },
+      "items": [
+        {
+          "_id": "1820",
+          "price": 208,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "sGULe",
+      "date": "23/01/2023",
+      "reference number": "2500046",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "920",
+          "price": 16,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "ZoofN",
+      "date": "21/01/2023",
+      "reference number": "2500047",
+      "supplier": {
+        "_id": "668"
+      },
+      "items": [
+        {
+          "_id": "1717",
+          "price": 50,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "U6og2",
+      "date": "21/01/2023",
+      "reference number": "2500048",
+      "supplier": {
+        "_id": "562"
+      },
+      "items": [
+        {
+          "_id": "928",
+          "price": 18,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "rmjLT",
+      "date": "23/01/2023",
+      "reference number": "2500049",
+      "supplier": {
+        "_id": "578"
+      },
+      "items": [
+        {
+          "_id": "966",
+          "price": 750,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "QzFn9",
+      "date": "24/01/2023",
+      "reference number": "2500050",
+      "supplier": {
+        "_id": "511"
+      },
+      "items": [
+        {
+          "_id": "1821",
+          "price": 4655,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "RUcRw",
+      "date": "23/01/2023",
+      "reference number": "2500051",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "920",
+          "price": 21.66,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_id": "0TD3g",
+      "date": "24/01/2023",
+      "reference number": "2500052",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "2004",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 18,
+          "quantity": 1
+        },
+        {
+          "_id": "1000",
+          "price": 63.06,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "miB4L",
+      "date": "27/01/2023",
+      "reference number": "2500053",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "56845",
+          "price": 6.23,
+          "quantity": 1
+        },
+        {
+          "_id": "364",
+          "price": 18.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "HJwPd",
+      "date": "27/01/2023",
+      "reference number": "2500054",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "9951455",
+          "price": 90,
+          "quantity": 0.11
+        },
+        {
+          "_id": "9951455",
+          "price": 99,
+          "quantity": 0.19
+        }
+      ]
+    },
+    {
+      "_id": "m8MmA",
+      "date": "27/01/2023",
+      "reference number": "2500055",
+      "supplier": {
+        "_id": "517"
+      },
+      "items": [
+        {
+          "_id": "816",
+          "price": 79.9,
+          "quantity": 0.84
+        },
+        {
+          "_id": "925",
+          "price": 38.9,
+          "quantity": 1.31
+        },
+        {
+          "_id": "809",
+          "price": 32.66,
+          "quantity": 1.43
+        },
+        {
+          "_id": "806",
+          "price": 25.9,
+          "quantity": 1.56
+        },
+        {
+          "_id": "831",
+          "price": 139,
+          "quantity": 0.26
+        },
+        {
+          "_id": "809",
+          "price": 32.66,
+          "quantity": 1.57
+        }
+      ]
+    },
+    {
+      "_id": "v7jin",
+      "date": "27/01/2023",
+      "reference number": "2500056",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "303",
+          "price": 69,
+          "quantity": 0.29
+        },
+        {
+          "_id": "331",
+          "price": 169,
+          "quantity": 0.16
+        },
+        {
+          "_id": "24",
+          "price": 42,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29002E+12",
+          "price": 195,
+          "quantity": 1
+        },
+        {
+          "_id": "3395",
+          "price": 220,
+          "quantity": 0.13
+        }
+      ]
+    },
+    {
+      "_id": "h8UE6",
+      "date": "27/01/2023",
+      "reference number": "2500057",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2025",
+          "price": 54,
+          "quantity": 0.18
+        },
+        {
+          "_id": "2004",
+          "price": 7,
+          "quantity": 2
+        },
+        {
+          "_id": "2024",
+          "price": 8.5,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "Thfun",
+      "date": "27/01/2023",
+      "reference number": "2500058",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "243",
+          "price": 19.9,
+          "quantity": 1.36
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "250",
+          "price": 7.9,
+          "quantity": 0.44
+        },
+        {
+          "_id": "13237",
+          "price": 8.9,
+          "quantity": 1
+        },
+        {
+          "_id": "70",
+          "price": 7.9,
+          "quantity": 0.48
+        },
+        {
+          "_id": "289",
+          "price": 19.9,
+          "quantity": 0.68
+        },
+        {
+          "_id": "215",
+          "price": 8.9,
+          "quantity": 0.69
+        },
+        {
+          "_id": "50",
+          "price": 7.9,
+          "quantity": 0.51
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.17
+        },
+        {
+          "_id": "283",
+          "price": 19.9,
+          "quantity": 0.5
+        },
+        {
+          "_id": "38",
+          "price": 6,
+          "quantity": 1
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        },
+        {
+          "_id": "35",
+          "price": 4.9,
+          "quantity": 1.69
+        },
+        {
+          "_id": "30",
+          "price": 4.9,
+          "quantity": 0.61
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 0.74
+        }
+      ]
+    },
+    {
+      "_id": "IYJtn",
+      "date": "27/01/2023",
+      "reference number": "2500059",
+      "supplier": {
+        "_id": "665"
+      },
+      "items": [
+        {
+          "_id": "1807",
+          "price": 249,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "6KheX",
+      "date": "30/01/2023",
+      "reference number": "2500060",
+      "supplier": {
+        "_id": "570"
+      },
+      "items": [
+        {
+          "_id": "1019",
+          "price": 9.87,
+          "quantity": 45.2
+        }
+      ]
+    },
+    {
+      "_id": "8gGlJ",
+      "date": "27/01/2023",
+      "reference number": "2500061",
+      "supplier": {
+        "_id": "562"
+      },
+      "items": [
+        {
+          "_id": "928",
+          "price": 46.45,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "PSA0C",
+      "date": "27/01/2023",
+      "reference number": "2500062",
+      "supplier": {
+        "_id": "558"
+      },
+      "items": [
+        {
+          "_id": "913",
+          "price": 13.44,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "JCtyU",
+      "date": "11/01/2023",
+      "reference number": "2500063",
+      "supplier": {
+        "_id": "610"
+      },
+      "items": [
+        {
+          "_id": "994",
+          "price": 99.01,
+          "quantity": -1
+        }
+      ]
+    },
+    {
+      "_id": "en6be",
+      "date": "27/01/2023",
+      "reference number": "2500064",
+      "supplier": {
+        "_id": "534"
+      },
+      "items": [
+        {
+          "_id": "1686",
+          "price": 360,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "HGkF2",
+      "date": "26/01/2023",
+      "reference number": "2500065",
+      "supplier": {
+        "_id": "668"
+      },
+      "items": [
+        {
+          "_id": "1717",
+          "price": 5.5,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "7qxLV",
+      "date": "27/01/2023",
+      "reference number": "2500066",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "283",
+          "price": 12.5,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "E1ri0",
+      "date": "30/01/2023",
+      "reference number": "2500067",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "402",
+          "price": 88,
+          "quantity": 0.11
+        },
+        {
+          "_id": "401",
+          "price": 99,
+          "quantity": 0.21
+        }
+      ]
+    },
+    {
+      "_id": "CAGXj",
+      "date": "30/01/2023",
+      "reference number": "2500068",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "2025",
+          "price": 51.9,
+          "quantity": 0.12
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 3.9,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "72963753",
+          "price": 2.4,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 5.3,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 6.47,
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "_id": "U2hDc",
+      "date": "01/02/2023",
+      "reference number": "2500069",
+      "supplier": {
+        "_id": "669"
+      },
+      "items": [
+        {
+          "_id": "1806",
+          "price": 10000,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "D5Tje",
+      "date": "01/02/2023",
+      "reference number": "2500070",
+      "supplier": {
+        "_id": "638"
+      },
+      "items": [
+        {
+          "_id": "968",
+          "price": 21.45,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "HZpaJ",
+      "date": "30/01/2023",
+      "reference number": "2500071",
+      "supplier": {
+        "_id": "534"
+      },
+      "items": [
+        {
+          "_id": "1686",
+          "price": 360,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "lDgWO",
+      "date": "01/02/2023",
+      "reference number": "2500072",
+      "supplier": {
+        "_id": "502"
+      },
+      "items": [
+        {
+          "_id": "965",
+          "price": 700,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "WbaE7",
+      "date": "01/02/2023",
+      "reference number": "2500073",
+      "supplier": {
+        "_id": "503"
+      },
+      "items": [
+        {
+          "_id": "1634",
+          "price": 157,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "LjK8i",
+      "date": "01/02/2023",
+      "reference number": "2500074",
+      "supplier": {
+        "_id": "505"
+      },
+      "items": [
+        {
+          "_id": "956",
+          "price": 190.1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "xCSGX",
+      "date": "01/02/2023",
+      "reference number": "2500075",
+      "supplier": {
+        "_id": "505"
+      },
+      "items": [
+        {
+          "_id": "957",
+          "price": 86.33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "e5yGL",
+      "date": "01/02/2023",
+      "reference number": "2500076",
+      "supplier": {
+        "_id": "641"
+      },
+      "items": [
+        {
+          "_id": "1757",
+          "price": 836.33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "aoCIE",
+      "date": "01/02/2023",
+      "reference number": "2500077",
+      "supplier": {
+        "_id": "619"
+      },
+      "items": [
+        {
+          "_id": "1803",
+          "price": 924,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ceNf1",
+      "date": "01/02/2023",
+      "reference number": "2500078",
+      "supplier": {
+        "_id": "602"
+      },
+      "items": [
+        {
+          "_id": "978",
+          "price": 20,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "qYECH",
+      "date": "01/02/2023",
+      "reference number": "2500079",
+      "supplier": {
+        "_id": "542"
+      },
+      "items": [
+        {
+          "_id": "946",
+          "price": 33.9,
+          "quantity": 1
+        },
+        {
+          "_id": "947",
+          "price": 39.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "rUxcl",
+      "date": "01/02/2023",
+      "reference number": "2500080",
+      "supplier": {
+        "_id": "583"
+      },
+      "items": [
+        {
+          "_id": "922",
+          "price": 54.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "M7qNB",
+      "date": "01/02/2023",
+      "reference number": "2500081",
+      "supplier": {
+        "_id": "506"
+      },
+      "items": [
+        {
+          "_id": "917",
+          "price": 840.75,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "DDiIo",
+      "date": "01/02/2023",
+      "reference number": "2500082",
+      "supplier": {
+        "_id": "656"
+      },
+      "items": [
+        {
+          "_id": "1746",
+          "price": 27,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "e2WQU",
+      "date": "01/02/2023",
+      "reference number": "2500083",
+      "supplier": {
+        "_id": "592"
+      },
+      "items": [
+        {
+          "_id": "934",
+          "price": 100,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "2wsw2",
+      "date": "01/02/2023",
+      "reference number": "2500084",
+      "supplier": {
+        "_id": "508"
+      },
+      "items": [
+        {
+          "_id": "961",
+          "price": 83.98,
+          "quantity": 1
+        },
+        {
+          "_id": "964",
+          "price": 9.51,
+          "quantity": 1
+        },
+        {
+          "_id": "959",
+          "price": 305.49,
+          "quantity": 1
+        },
+        {
+          "_id": "960",
+          "price": 264.57,
+          "quantity": 1
+        },
+        {
+          "_id": "963",
+          "price": 38.67,
+          "quantity": 1
+        },
+        {
+          "_id": "962",
+          "price": 83.98,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "1Pjoz",
+      "date": "02/02/2023",
+      "reference number": "2500085",
+      "supplier": {
+        "_id": "579"
+      },
+      "items": [
+        {
+          "_id": "955",
+          "price": 50,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "T0tEt",
+      "date": "02/02/2023",
+      "reference number": "2500086",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "1663",
+          "price": 742.61,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "2EQEk",
+      "date": "02/02/2023",
+      "reference number": "2500087",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "452",
+          "price": 20,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "WBlXx",
+      "date": "02/02/2023",
+      "reference number": "2500088",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "809",
+          "price": 41.9,
+          "quantity": 2.36
+        },
+        {
+          "_id": "801",
+          "price": 69,
+          "quantity": 1.17
+        },
+        {
+          "_id": "820",
+          "price": 74.9,
+          "quantity": 0.57
+        }
+      ]
+    },
+    {
+      "_id": "Qme94",
+      "date": "02/02/2023",
+      "reference number": "2500089",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2025",
+          "price": 54,
+          "quantity": 0.22
+        },
+        {
+          "_id": "2004",
+          "price": 2,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "RTFoN",
+      "date": "02/02/2023",
+      "reference number": "2500090",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "170",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "267",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "48",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "90",
+          "price": 8.9,
+          "quantity": 0.92
+        },
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "251",
+          "price": 11.9,
+          "quantity": 1.37
+        },
+        {
+          "_id": "32",
+          "price": 7.9,
+          "quantity": 1
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 0.91
+        },
+        {
+          "_id": "70",
+          "price": 7.9,
+          "quantity": 0.72
+        },
+        {
+          "_id": "123",
+          "price": 14.9,
+          "quantity": 0.81
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        },
+        {
+          "_id": "47",
+          "price": 15,
+          "quantity": 1
+        },
+        {
+          "_id": "286",
+          "price": 12.5,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "VK3ys",
+      "date": "03/02/2023",
+      "reference number": "2500091",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "4127329",
+          "price": 6,
+          "quantity": 1
+        },
+        {
+          "_id": "944",
+          "price": 51,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "5wXpl",
+      "date": "31/01/2023",
+      "reference number": "2500092",
+      "supplier": {
+        "_id": "560"
+      },
+      "items": [
+        {
+          "_id": "910",
+          "price": 6.85,
+          "quantity": 120.26
+        },
+        {
+          "_id": "909",
+          "price": 6.87,
+          "quantity": 72.79
+        }
+      ]
+    },
+    {
+      "_id": "gShCy",
+      "date": "31/01/2023",
+      "reference number": "2500093",
+      "supplier": {
+        "_id": "571"
+      },
+      "items": [
+        {
+          "_id": "1004",
+          "price": 28.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "G2vMB",
+      "date": "31/01/2023",
+      "reference number": "2500094",
+      "supplier": {
+        "_id": "571"
+      },
+      "items": [
+        {
+          "_id": "1004",
+          "price": 24,
+          "quantity": 1
+        },
+        {
+          "_id": "1006",
+          "price": 36.63,
+          "quantity": 1
+        },
+        {
+          "_id": "1005",
+          "price": 28.99,
+          "quantity": 1
+        },
+        {
+          "_id": "951",
+          "price": 38.89,
+          "quantity": 1
+        },
+        {
+          "_id": "953",
+          "price": 39.49,
+          "quantity": 1
+        },
+        {
+          "_id": "952",
+          "price": 28.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "MQ4ne",
+      "date": "05/02/2023",
+      "reference number": "2500095",
+      "supplier": {
+        "_id": "559"
+      },
+      "items": [
+        {
+          "_id": "911",
+          "price": 195,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "askGP",
+      "date": "31/01/2023",
+      "reference number": "2500096",
+      "supplier": {
+        "_id": "610"
+      },
+      "items": [
+        {
+          "_id": "994",
+          "price": 49.9,
+          "quantity": 1
+        },
+        {
+          "_id": "995",
+          "price": 114.9,
+          "quantity": 1
+        },
+        {
+          "_id": "996",
+          "price": 19.89,
+          "quantity": 1
+        },
+        {
+          "_id": "997",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "_id": "999",
+          "price": 9.7,
+          "quantity": -1
+        },
+        {
+          "_id": "993",
+          "price": 0.18,
+          "quantity": 38.52
+        }
+      ]
+    },
+    {
+      "_id": "QqiKc",
+      "date": "09/02/2023",
+      "reference number": "2500097",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "406",
+          "price": 48,
+          "quantity": 0.75
+        },
+        {
+          "_id": "455",
+          "price": 99,
+          "quantity": 0.26
+        }
+      ]
+    },
+    {
+      "_id": "Gel9Y",
+      "date": "09/02/2023",
+      "reference number": "2500098",
+      "supplier": {
+        "_id": "523"
+      },
+      "items": [
+        {
+          "_id": "22",
+          "price": 130,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "Btpxm",
+      "date": "09/02/2023",
+      "reference number": "2500099",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "810",
+          "price": 79.9,
+          "quantity": 0.96
+        },
+        {
+          "_id": "943",
+          "price": 59,
+          "quantity": 1.15
+        },
+        {
+          "_id": "829",
+          "price": 79,
+          "quantity": 0.87
+        }
+      ]
+    },
+    {
+      "_id": "TEqHJ",
+      "date": "09/02/2023",
+      "reference number": "2500100",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "393",
+          "price": 26,
+          "quantity": 1
+        },
+        {
+          "_id": "7.6223E+12",
+          "price": 14.9,
+          "quantity": 1
+        },
+        {
+          "_id": "219",
+          "price": 79,
+          "quantity": 0.25
+        },
+        {
+          "_id": "607",
+          "price": 12.5,
+          "quantity": 1
+        },
+        {
+          "_id": "326",
+          "price": 159,
+          "quantity": 0.2
+        },
+        {
+          "_id": "24",
+          "price": 48,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 23.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "09Fnf",
+      "date": "09/02/2023",
+      "reference number": "2500101",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2025",
+          "price": 54,
+          "quantity": 0.26
+        },
+        {
+          "_id": "169798",
+          "price": 34,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "1VbkZ",
+      "date": "09/02/2023",
+      "reference number": "2500102",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "267",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        },
+        {
+          "_id": "37",
+          "price": 7.9,
+          "quantity": 0.6
+        },
+        {
+          "_id": "250",
+          "price": 9.9,
+          "quantity": 1.09
+        },
+        {
+          "_id": "215",
+          "price": 9.9,
+          "quantity": 0.71
+        },
+        {
+          "_id": "52",
+          "price": 9.9,
+          "quantity": 0.33
+        },
+        {
+          "_id": "27",
+          "price": 5.9,
+          "quantity": 1.92
+        },
+        {
+          "_id": "32",
+          "price": 7.9,
+          "quantity": 1.13
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 0.99
+        },
+        {
+          "_id": "283",
+          "price": 19.9,
+          "quantity": 0.65
+        },
+        {
+          "_id": "251",
+          "price": 9.9,
+          "quantity": 1.36
+        },
+        {
+          "_id": "28",
+          "price": 7.9,
+          "quantity": 2.8
+        },
+        {
+          "_id": "180",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "279",
+          "price": 12.9,
+          "quantity": 0.45
+        },
+        {
+          "_id": "265",
+          "price": 14.9,
+          "quantity": 0.27
+        },
+        {
+          "_id": "70",
+          "price": 8.9,
+          "quantity": 1
+        },
+        {
+          "_id": "245",
+          "price": 18.9,
+          "quantity": 1.49
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.19
+        }
+      ]
+    },
+    {
+      "_id": "yHAaP",
+      "date": "09/02/2023",
+      "reference number": "2500103",
+      "supplier": {
+        "_id": "629"
+      },
+      "items": [
+        {
+          "_id": "56845",
+          "price": 8.3,
+          "quantity": 1
+        },
+        {
+          "_id": "47942",
+          "price": 5.1,
+          "quantity": 2
+        },
+        {
+          "_id": "4127336",
+          "price": 5.8,
+          "quantity": 1
+        },
+        {
+          "_id": "46020",
+          "price": 42.58,
+          "quantity": 0.64
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 6.47,
+          "quantity": 8
+        },
+        {
+          "_id": "8.71895E+12",
+          "price": 12.9,
+          "quantity": 2
+        },
+        {
+          "_id": "422",
+          "price": 18.9,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "1HwO8",
+      "date": "05/02/2023",
+      "reference number": "2500104",
+      "supplier": {
+        "_id": "671"
+      },
+      "items": [
+        {
+          "_id": "1627",
+          "price": 11,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "UkELf",
+      "date": "13/02/2023",
+      "reference number": "2500105",
+      "supplier": {
+        "_id": "549"
+      },
+      "items": [
+        {
+          "_id": "901",
+          "price": 5.9,
+          "quantity": 1
+        },
+        {
+          "_id": "902",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "944",
+          "price": 87.4,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "CqOD0",
+      "date": "13/02/2023",
+      "reference number": "2500106",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "1814",
+          "price": 20,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "FYZCm",
+      "date": "15/02/2023",
+      "reference number": "2500107",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "920",
+          "price": 69,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "H5NpQ",
+      "date": "16/02/2023",
+      "reference number": "2500108",
+      "supplier": {
+        "_id": "579"
+      },
+      "items": [
+        {
+          "_id": "955",
+          "price": 50,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "Ezne0",
+      "date": "16/02/2023",
+      "reference number": "2500109",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2025",
+          "price": 54,
+          "quantity": 0.22
+        },
+        {
+          "_id": "2004",
+          "price": 4,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "RxcoP",
+      "date": "16/02/2023",
+      "reference number": "2500110",
+      "supplier": {
+        "_id": "521"
+      },
+      "items": [
+        {
+          "_id": "9031",
+          "price": 99,
+          "quantity": 0.46
+        },
+        {
+          "_id": "9031",
+          "price": 99,
+          "quantity": 0.48
+        }
+      ]
+    },
+    {
+      "_id": "Hegf5",
+      "date": "16/02/2023",
+      "reference number": "2500111",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "317",
+          "price": 149,
+          "quantity": 0.13
+        },
+        {
+          "_id": "24",
+          "price": 48,
+          "quantity": 1
+        },
+        {
+          "_id": "2775058",
+          "price": 28,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ull9p",
+      "date": "16/02/2023",
+      "reference number": "2500112",
+      "supplier": {
+        "_id": "644"
+      },
+      "items": [
+        {
+          "_id": "56845",
+          "price": 8.6,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 6.47,
+          "quantity": 4
+        },
+        {
+          "_id": "72963753",
+          "price": 4.9,
+          "quantity": 2
+        },
+        {
+          "_id": "4127817",
+          "price": 10.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 4.1,
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "_id": "ePzf1",
+      "date": "16/02/2023",
+      "reference number": "2500113",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "411",
+          "price": 65,
+          "quantity": 0.59
+        },
+        {
+          "_id": "401",
+          "price": 99,
+          "quantity": 0.35
+        },
+        {
+          "_id": "402",
+          "price": 99,
+          "quantity": 0.36
+        },
+        {
+          "_id": "409",
+          "price": 90,
+          "quantity": 0.58
+        },
+        {
+          "_id": "406",
+          "price": 48,
+          "quantity": 0.75
+        },
+        {
+          "_id": "403",
+          "price": 100,
+          "quantity": 0.75
+        },
+        {
+          "_id": "408",
+          "price": 30,
+          "quantity": 0.24
+        },
+        {
+          "_id": "415",
+          "price": 54,
+          "quantity": 0.15
+        },
+        {
+          "_id": "420",
+          "price": 30,
+          "quantity": 0.14
+        },
+        {
+          "_id": "456",
+          "price": 35,
+          "quantity": 0.13
+        }
+      ]
+    },
+    {
+      "_id": "eW30S",
+      "date": "16/02/2023",
+      "reference number": "2500114",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "51",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "52",
+          "price": 9.9,
+          "quantity": 0.35
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        },
+        {
+          "_id": "215",
+          "price": 11.9,
+          "quantity": 0.64
+        },
+        {
+          "_id": "250",
+          "price": 12.9,
+          "quantity": 0.98
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 0.91
+        },
+        {
+          "_id": "288",
+          "price": 11.9,
+          "quantity": 0.73
+        },
+        {
+          "_id": "70",
+          "price": 8.9,
+          "quantity": 1.11
+        },
+        {
+          "_id": "279",
+          "price": 14.9,
+          "quantity": 0.23
+        },
+        {
+          "_id": "55",
+          "price": 7.9,
+          "quantity": 0.4
+        },
+        {
+          "_id": "53",
+          "price": 7.9,
+          "quantity": 0.65
+        },
+        {
+          "_id": "29",
+          "price": 25,
+          "quantity": 1
+        },
+        {
+          "_id": "13237",
+          "price": 8.9,
+          "quantity": 1
+        },
+        {
+          "_id": "245",
+          "price": 18.9,
+          "quantity": 1.34
+        }
+      ]
+    },
+    {
+      "_id": "6AFDr",
+      "date": "17/02/2023",
+      "reference number": "2500115",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "283",
+          "price": 12.5,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "BahBQ",
+      "date": "10/01/2023",
+      "reference number": "2500116",
+      "supplier": {
+        "_id": "630"
+      },
+      "items": [
+        {
+          "_id": "1616",
+          "price": 80,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "9UEKK",
+      "date": "15/02/2023",
+      "reference number": "2500117",
+      "supplier": {
+        "_id": "576"
+      },
+      "items": [
+        {
+          "_id": "933",
+          "price": 39.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "j7Psm",
+      "date": "19/02/2023",
+      "reference number": "2500118",
+      "supplier": {
+        "_id": "639"
+      },
+      "items": [
+        {
+          "_id": "1648",
+          "price": 43,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "yJYXG",
+      "date": "20/02/2023",
+      "reference number": "2500119",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "49",
+          "price": 11.9,
+          "quantity": 1
+        },
+        {
+          "_id": "75",
+          "price": 12.9,
+          "quantity": 1
+        },
+        {
+          "_id": "201",
+          "price": 18,
+          "quantity": 1
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "AC7oz",
+      "date": "23/02/2023",
+      "reference number": "2500120",
+      "supplier": {
+        "_id": "519"
+      },
+      "items": [
+        {
+          "_id": "7.29E+12",
+          "price": 3.9,
+          "quantity": 4
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 7.9,
+          "quantity": 1
+        },
+        {
+          "_id": "47942",
+          "price": 6.6,
+          "quantity": 2
+        },
+        {
+          "_id": "43111",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "56845",
+          "price": 6.23,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "92hx7",
+      "date": "23/02/2023",
+      "reference number": "2500121",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2011",
+          "price": 54,
+          "quantity": 1
+        },
+        {
+          "_id": "2025",
+          "price": 56,
+          "quantity": 0.16
+        }
+      ]
+    },
+    {
+      "_id": "7YCDA",
+      "date": "23/02/2023",
+      "reference number": "2500122",
+      "supplier": {
+        "_id": "523"
+      },
+      "items": [
+        {
+          "_id": "1643",
+          "price": 89.9,
+          "quantity": 1.43
+        }
+      ]
+    },
+    {
+      "_id": "YcsUx",
+      "date": "23/02/2023",
+      "reference number": "2500123",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "220",
+          "price": 79,
+          "quantity": 0.37
+        },
+        {
+          "_id": "366",
+          "price": 189,
+          "quantity": 0.19
+        },
+        {
+          "_id": "24",
+          "price": 48,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "Oj77h",
+      "date": "23/02/2023",
+      "reference number": "2500124",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "807",
+          "price": 55,
+          "quantity": 0.41
+        },
+        {
+          "_id": "925",
+          "price": 38,
+          "quantity": 0.57
+        },
+        {
+          "_id": "806",
+          "price": 28.9,
+          "quantity": 1.47
+        },
+        {
+          "_id": "804",
+          "price": 49.9,
+          "quantity": 1.07
+        },
+        {
+          "_id": "813",
+          "price": 199,
+          "quantity": 1.12
+        }
+      ]
+    },
+    {
+      "_id": "3sAvl",
+      "date": "23/02/2023",
+      "reference number": "2500125",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "170",
+          "price": 3,
+          "quantity": 2
+        },
+        {
+          "_id": "35",
+          "price": 4.9,
+          "quantity": 0.94
+        },
+        {
+          "_id": "267",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "13237",
+          "price": 8.9,
+          "quantity": 1
+        },
+        {
+          "_id": "90",
+          "price": 12.9,
+          "quantity": 1.05
+        },
+        {
+          "_id": "70",
+          "price": 8.9,
+          "quantity": 1.4
+        },
+        {
+          "_id": "264",
+          "price": 11.9,
+          "quantity": 0.79
+        },
+        {
+          "_id": "287",
+          "price": 5.9,
+          "quantity": 1
+        },
+        {
+          "_id": "2709784",
+          "price": 6.9,
+          "quantity": 0.36
+        },
+        {
+          "_id": "50",
+          "price": 7.9,
+          "quantity": 0.71
+        },
+        {
+          "_id": "28",
+          "price": 7.9,
+          "quantity": 3.11
+        },
+        {
+          "_id": "32",
+          "price": 7.9,
+          "quantity": 1
+        },
+        {
+          "_id": "27",
+          "price": 5.9,
+          "quantity": 1.98
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.46
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 1.22
+        },
+        {
+          "_id": "250",
+          "price": 12.9,
+          "quantity": 1.1
+        },
+        {
+          "_id": "283",
+          "price": 19.9,
+          "quantity": 0.49
+        },
+        {
+          "_id": "279",
+          "price": 22.9,
+          "quantity": 0.39
+        },
+        {
+          "_id": "201",
+          "price": 17.09,
+          "quantity": 1
+        },
+        {
+          "_id": "245",
+          "price": 19.9,
+          "quantity": 1.31
+        },
+        {
+          "_id": "37",
+          "price": 7.9,
+          "quantity": 0.38
+        },
+        {
+          "_id": "240",
+          "price": 12.9,
+          "quantity": 0.71
+        }
+      ]
+    },
+    {
+      "_id": "Jpzqd",
+      "date": "26/02/2023",
+      "reference number": "2500126",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "5.41119E+12",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "56845",
+          "price": 10,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "aGgch",
+      "date": "26/02/2023",
+      "reference number": "2500127",
+      "supplier": {
+        "_id": "578"
+      },
+      "items": [
+        {
+          "_id": "966",
+          "price": 500,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "af5CJ",
+      "date": "27/02/2023",
+      "reference number": "2500128",
+      "supplier": {
+        "_id": "684"
+      },
+      "items": [
+        {
+          "_id": "8051",
+          "price": 152,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "TvvwV",
+      "date": "27/02/2023",
+      "reference number": "2500129",
+      "supplier": {
+        "_id": "665"
+      },
+      "items": [
+        {
+          "_id": "1807",
+          "price": 269,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "7lEQa",
+      "date": "20/02/2023",
+      "reference number": "2500130",
+      "supplier": {
+        "_id": "511"
+      },
+      "items": [
+        {
+          "_id": "1651",
+          "price": 240,
+          "quantity": 1
+        },
+        {
+          "_id": "904",
+          "price": 255,
+          "quantity": 1
+        },
+        {
+          "_id": "1740",
+          "price": 120,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "xOKZI",
+      "date": "21/02/2023",
+      "reference number": "2500131",
+      "supplier": {
+        "_id": "630"
+      },
+      "items": [
+        {
+          "_id": "1616",
+          "price": 80,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "H6f5K",
+      "date": "18/02/2023",
+      "reference number": "2500132",
+      "supplier": {
+        "_id": "577"
+      },
+      "items": [
+        {
+          "_id": "932",
+          "price": 121,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "g5U3U",
+      "date": "22/02/2023",
+      "reference number": "2500133",
+      "supplier": {
+        "_id": "640"
+      },
+      "items": [
+        {
+          "_id": "1657",
+          "price": 120,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "_id": "IuLlg",
+      "date": "23/02/2023",
+      "reference number": "2500134",
+      "supplier": {
+        "_id": "672"
+      },
+      "items": [
+        {
+          "_id": "1824",
+          "price": 419,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "qIdQW",
+      "date": "26/02/2023",
+      "reference number": "2500135",
+      "supplier": {
+        "_id": "562"
+      },
+      "items": [
+        {
+          "_id": "928",
+          "price": 41,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "8RkWl",
+      "date": "01/03/2023",
+      "reference number": "2500136",
+      "supplier": {
+        "_id": "638"
+      },
+      "items": [
+        {
+          "_id": "968",
+          "price": 11.65,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "xXSGh",
+      "date": "01/03/2023",
+      "reference number": "2500137",
+      "supplier": {
+        "_id": "502"
+      },
+      "items": [
+        {
+          "_id": "965",
+          "price": 700,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "yqlA7",
+      "date": "01/03/2023",
+      "reference number": "2500138",
+      "supplier": {
+        "_id": "505"
+      },
+      "items": [
+        {
+          "_id": "956",
+          "price": 190.1,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "pb5D9",
+      "date": "01/03/2023",
+      "reference number": "2500139",
+      "supplier": {
+        "_id": "505"
+      },
+      "items": [
+        {
+          "_id": "957",
+          "price": 86.33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "BFKsi",
+      "date": "01/03/2023",
+      "reference number": "2500140",
+      "supplier": {
+        "_id": "641"
+      },
+      "items": [
+        {
+          "_id": "1757",
+          "price": 836.33,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ylrID",
+      "date": "01/03/2023",
+      "reference number": "2500141",
+      "supplier": {
+        "_id": "619"
+      },
+      "items": [
+        {
+          "_id": "1803",
+          "price": 924,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "6Gg8N",
+      "date": "01/03/2023",
+      "reference number": "2500142",
+      "supplier": {
+        "_id": "602"
+      },
+      "items": [
+        {
+          "_id": "978",
+          "price": 20,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "f1l2D",
+      "date": "01/03/2023",
+      "reference number": "2500143",
+      "supplier": {
+        "_id": "542"
+      },
+      "items": [
+        {
+          "_id": "946",
+          "price": 33.9,
+          "quantity": 1
+        },
+        {
+          "_id": "947",
+          "price": 39.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "BjOHv",
+      "date": "01/03/2023",
+      "reference number": "2500144",
+      "supplier": {
+        "_id": "583"
+      },
+      "items": [
+        {
+          "_id": "922",
+          "price": 54.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "jMfZp",
+      "date": "02/03/2023",
+      "reference number": "2500145",
+      "supplier": {
+        "_id": "656"
+      },
+      "items": [
+        {
+          "_id": "1746",
+          "price": 27,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "gQyYY",
+      "date": "01/03/2023",
+      "reference number": "2500146",
+      "supplier": {
+        "_id": "592"
+      },
+      "items": [
+        {
+          "_id": "934",
+          "price": 100,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "SnCAH",
+      "date": "02/03/2023",
+      "reference number": "2500147",
+      "supplier": {
+        "_id": "656"
+      },
+      "items": [
+        {
+          "_id": "1746",
+          "price": 27,
+          "quantity": -1
+        }
+      ]
+    },
+    {
+      "_id": "5NQxO",
+      "date": "01/03/2023",
+      "reference number": "2500148",
+      "supplier": {
+        "_id": "656"
+      },
+      "items": [
+        {
+          "_id": "1746",
+          "price": 27,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "5HLer",
+      "date": "01/03/2023",
+      "reference number": "2500149",
+      "supplier": {
+        "_id": "508"
+      },
+      "items": [
+        {
+          "_id": "961",
+          "price": 84.23,
+          "quantity": 1
+        },
+        {
+          "_id": "964",
+          "price": 9.54,
+          "quantity": 1
+        },
+        {
+          "_id": "959",
+          "price": 306.44,
+          "quantity": 1
+        },
+        {
+          "_id": "960",
+          "price": 265.4,
+          "quantity": 1
+        },
+        {
+          "_id": "963",
+          "price": 38.79,
+          "quantity": 1
+        },
+        {
+          "_id": "962",
+          "price": 84.23,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "5FW3S",
+      "date": "02/03/2023",
+      "reference number": "2500150",
+      "supplier": {
+        "_id": "579"
+      },
+      "items": [
+        {
+          "_id": "955",
+          "price": 50,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "p8YJw",
+      "date": "28/02/2023",
+      "reference number": "2500151",
+      "supplier": {
+        "_id": "560"
+      },
+      "items": [
+        {
+          "_id": "910",
+          "price": 6.8,
+          "quantity": 159.35
+        },
+        {
+          "_id": "909",
+          "price": 6.88,
+          "quantity": 114.05
+        }
+      ]
+    },
+    {
+      "_id": "4Nb7Q",
+      "date": "03/03/2023",
+      "reference number": "2500152",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "2010",
+          "price": 17,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 3.9,
+          "quantity": 4
+        },
+        {
+          "_id": "7.6223E+12",
+          "price": 19.9,
+          "quantity": 1
+        },
+        {
+          "_id": "46327",
+          "price": 15,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 22.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 6.47,
+          "quantity": 1
+        },
+        {
+          "_id": "4127817",
+          "price": 11,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "x1VQq",
+      "date": "03/03/2023",
+      "reference number": "2500153",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "32",
+          "price": 8.9,
+          "quantity": 1.03
+        },
+        {
+          "_id": "243",
+          "price": 26.9,
+          "quantity": 1.26
+        },
+        {
+          "_id": "240",
+          "price": 12.9,
+          "quantity": 1.11
+        },
+        {
+          "_id": "123",
+          "price": 18.9,
+          "quantity": 0.59
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.49
+        },
+        {
+          "_id": "287",
+          "price": 5.9,
+          "quantity": 0.79
+        },
+        {
+          "_id": "250",
+          "price": 8.9,
+          "quantity": 0.69
+        },
+        {
+          "_id": "40",
+          "price": 15.9,
+          "quantity": 1.21
+        },
+        {
+          "_id": "28",
+          "price": 7.9,
+          "quantity": 1.9
+        },
+        {
+          "_id": "70",
+          "price": 8.9,
+          "quantity": 0.87
+        },
+        {
+          "_id": "265",
+          "price": 14.9,
+          "quantity": 0.38
+        },
+        {
+          "_id": "288",
+          "price": 11.9,
+          "quantity": 0.58
+        }
+      ]
+    },
+    {
+      "_id": "RUNgE",
+      "date": "03/03/2023",
+      "reference number": "2500154",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "24",
+          "price": 48,
+          "quantity": 1
+        },
+        {
+          "_id": "375",
+          "price": 159,
+          "quantity": 0.18
+        },
+        {
+          "_id": "356",
+          "price": 220,
+          "quantity": 0.18
+        }
+      ]
+    },
+    {
+      "_id": "ALyLY",
+      "date": "03/03/2023",
+      "reference number": "2500155",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2009",
+          "price": 54,
+          "quantity": 1
+        },
+        {
+          "_id": "2024",
+          "price": 16.5,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "mdhFd",
+      "date": "02/03/2023",
+      "reference number": "2500156",
+      "supplier": {
+        "_id": "684"
+      },
+      "items": [
+        {
+          "_id": "8052",
+          "price": 141,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ycrUT",
+      "date": "28/02/2023",
+      "reference number": "2500157",
+      "supplier": {
+        "_id": "571"
+      },
+      "items": [
+        {
+          "_id": "1004",
+          "price": 28.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "MOO5U",
+      "date": "06/03/2023",
+      "reference number": "2500158",
+      "supplier": {
+        "_id": "534"
+      },
+      "items": [
+        {
+          "_id": "904",
+          "price": 195,
+          "quantity": 1
+        },
+        {
+          "_id": "1686",
+          "price": 1350,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "6GBxH",
+      "date": "07/03/2023",
+      "reference number": "2500159",
+      "supplier": {
+        "_id": "592"
+      },
+      "items": [
+        {
+          "_id": "1677",
+          "price": 2900,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "QxrLb",
+      "date": "07/03/2023",
+      "reference number": "2500160",
+      "supplier": {
+        "_id": "578"
+      },
+      "items": [
+        {
+          "_id": "966",
+          "price": 750,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "T0das",
+      "date": "07/03/2023",
+      "reference number": "2500161",
+      "supplier": {
+        "_id": "578"
+      },
+      "items": [
+        {
+          "_id": "966",
+          "price": 360,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "Ve5tw",
+      "date": "06/03/2023",
+      "reference number": "2500162",
+      "supplier": {
+        "_id": "530"
+      },
+      "items": [
+        {
+          "_id": "1679",
+          "price": 172.6,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "rm755",
+      "date": "06/03/2023",
+      "reference number": "2500163",
+      "supplier": {
+        "_id": "562"
+      },
+      "items": [
+        {
+          "_id": "928",
+          "price": 30,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "r0W6e",
+      "date": "08/03/2023",
+      "reference number": "2500164",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "1679",
+          "price": 333.28,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "3zAEO",
+      "date": "06/03/2023",
+      "reference number": "2500165",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "1825",
+          "price": 584.95,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "ZK0pM",
+      "date": "06/03/2023",
+      "reference number": "2500166",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "1679",
+          "price": 132.08,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "VGAGR",
+      "date": "06/03/2023",
+      "reference number": "2500167",
+      "supplier": {
+        "_id": "644"
+      },
+      "items": [
+        {
+          "_id": "7.2901E+12",
+          "price": 7.9,
+          "quantity": 2
+        },
+        {
+          "_id": "3060009",
+          "price": 8.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "hdo2r",
+      "date": "06/03/2023",
+      "reference number": "2500168",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "170",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "267",
+          "price": 3,
+          "quantity": 1
+        },
+        {
+          "_id": "160",
+          "price": 6,
+          "quantity": 4
+        },
+        {
+          "_id": "180",
+          "price": 10,
+          "quantity": 1
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 1
+        },
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "90",
+          "price": 7.9,
+          "quantity": 0.61
+        },
+        {
+          "_id": "250",
+          "price": 8.9,
+          "quantity": 1.16
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 1.24
+        },
+        {
+          "_id": "27",
+          "price": 5.9,
+          "quantity": 7.63
+        },
+        {
+          "_id": "283",
+          "price": 13.9,
+          "quantity": 0.71
+        },
+        {
+          "_id": "54",
+          "price": 12.9,
+          "quantity": 0.52
+        },
+        {
+          "_id": "28",
+          "price": 8.9,
+          "quantity": 3.39
+        },
+        {
+          "_id": "210",
+          "price": 14.9,
+          "quantity": 0.31
+        },
+        {
+          "_id": "70",
+          "price": 8.9,
+          "quantity": 0.73
+        },
+        {
+          "_id": "40",
+          "price": 15.9,
+          "quantity": 1.97
+        },
+        {
+          "_id": "50",
+          "price": 7.9,
+          "quantity": 1.17
+        }
+      ]
+    },
+    {
+      "_id": "6dcml",
+      "date": "06/03/2023",
+      "reference number": "2500169",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "47",
+          "price": 15,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "mjyTZ",
+      "date": "06/03/2023",
+      "reference number": "2500170",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "411",
+          "price": 65,
+          "quantity": 0.35
+        }
+      ]
+    },
+    {
+      "_id": "eaAqA",
+      "date": "06/03/2023",
+      "reference number": "2500171",
+      "supplier": {
+        "_id": "622"
+      },
+      "items": [
+        {
+          "_id": "904",
+          "price": 370,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "nqCF5",
+      "date": "09/03/2023",
+      "reference number": "2500172",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "24",
+          "price": 48,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "SkQeh",
+      "date": "09/03/2023",
+      "reference number": "2500173",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "807",
+          "price": 64.9,
+          "quantity": 0.75
+        },
+        {
+          "_id": "438",
+          "price": 20.9,
+          "quantity": 1
+        },
+        {
+          "_id": "806",
+          "price": 28.9,
+          "quantity": 1.62
+        },
+        {
+          "_id": "925",
+          "price": 35,
+          "quantity": 1
+        },
+        {
+          "_id": "1797",
+          "price": 20,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "BGwna",
+      "date": "09/03/2023",
+      "reference number": "2500174",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "401",
+          "price": 99,
+          "quantity": 0.39
+        },
+        {
+          "_id": "409",
+          "price": 90,
+          "quantity": 0.42
+        },
+        {
+          "_id": "448",
+          "price": 79,
+          "quantity": 0.52
+        },
+        {
+          "_id": "403",
+          "price": 100,
+          "quantity": 0.56
+        },
+        {
+          "_id": "406",
+          "price": 48,
+          "quantity": 0.72
+        }
+      ]
+    },
+    {
+      "_id": "eChgS",
+      "date": "09/03/2023",
+      "reference number": "2500175",
+      "supplier": {
+        "_id": "526"
+      },
+      "items": [
+        {
+          "_id": "2004",
+          "price": 4,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "JqsA6",
+      "date": "09/03/2023",
+      "reference number": "2500176",
+      "supplier": {
+        "_id": "629"
+      },
+      "items": [
+        {
+          "_id": "966",
+          "price": 85.8,
+          "quantity": 1
+        },
+        {
+          "_id": "346144",
+          "price": 17,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "TaFij",
+      "date": "09/03/2023",
+      "reference number": "2500177",
+      "supplier": {
+        "_id": "661"
+      },
+      "items": [
+        {
+          "_id": "989",
+          "price": 70,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "lnORj",
+      "date": "09/03/2023",
+      "reference number": "2500178",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "7.29001E+12",
+          "price": 30,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "jM48Q",
+      "date": "09/03/2023",
+      "reference number": "2500179",
+      "supplier": {
+        "_id": "624"
+      },
+      "items": [
+        {
+          "_id": "1818",
+          "price": 6,
+          "quantity": 1
+        },
+        {
+          "_id": "1044",
+          "price": 18,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "xqNbJ",
+      "date": "09/03/2023",
+      "reference number": "2500180",
+      "supplier": {
+        "_id": "666"
+      },
+      "items": [
+        {
+          "_id": "1826",
+          "price": 129,
+          "quantity": 1
+        },
+        {
+          "_id": "1827",
+          "price": 79,
+          "quantity": 1
+        },
+        {
+          "_id": "1828",
+          "price": 6,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "daDJn",
+      "date": "09/03/2023",
+      "reference number": "2500181",
+      "supplier": {
+        "_id": "666"
+      },
+      "items": [
+        {
+          "_id": "1827",
+          "price": 79,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "sAURB",
+      "date": "28/02/2023",
+      "reference number": "2500182",
+      "supplier": {
+        "_id": "571"
+      },
+      "items": [
+        {
+          "_id": "1004",
+          "price": 24,
+          "quantity": 1
+        },
+        {
+          "_id": "1006",
+          "price": 34.99,
+          "quantity": 1
+        },
+        {
+          "_id": "1005",
+          "price": 28.99,
+          "quantity": 1
+        },
+        {
+          "_id": "951",
+          "price": 38.89,
+          "quantity": 1
+        },
+        {
+          "_id": "953",
+          "price": 38.95,
+          "quantity": 1
+        },
+        {
+          "_id": "952",
+          "price": 28.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "B3TnI",
+      "date": "31/01/2023",
+      "reference number": "2500183",
+      "supplier": {
+        "_id": "569"
+      },
+      "items": [
+        {
+          "_id": "979",
+          "price": 0.64,
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "_id": "0ZmzX",
+      "date": "28/02/2023",
+      "reference number": "2500184",
+      "supplier": {
+        "_id": "569"
+      },
+      "items": [
+        {
+          "_id": "979",
+          "price": 0.64,
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "_id": "RgPVz",
+      "date": "13/03/2023",
+      "reference number": "2500185",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "283",
+          "price": 25,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "HOBRk",
+      "date": "12/03/2023",
+      "reference number": "2500186",
+      "supplier": {
+        "_id": "578"
+      },
+      "items": [
+        {
+          "_id": "966",
+          "price": 950,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "1tzG2",
+      "date": "14/03/2023",
+      "reference number": "2500187",
+      "supplier": {
+        "_id": "592"
+      },
+      "items": [
+        {
+          "_id": "934",
+          "price": 850,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "sadnL",
+      "date": "10/03/2023",
+      "reference number": "2500188",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "430",
+          "price": 6.5,
+          "quantity": 2
+        },
+        {
+          "_id": "430",
+          "price": 4.3,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_id": "Fu7Jz",
+      "date": "10/03/2023",
+      "reference number": "2500189",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "430",
+          "price": 6.5,
+          "quantity": -2
+        },
+        {
+          "_id": "430",
+          "price": 4.3,
+          "quantity": -3
+        }
+      ]
+    },
+    {
+      "_id": "W3mV2",
+      "date": "10/03/2023",
+      "reference number": "2500190",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "430",
+          "price": 6.5,
+          "quantity": 2
+        },
+        {
+          "_id": "430",
+          "price": 4.63,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "_id": "y2NPk",
+      "date": "13/03/2023",
+      "reference number": "2500191",
+      "supplier": {
+        "_id": "539"
+      },
+      "items": [
+        {
+          "_id": "1829",
+          "price": 65,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "scvA6",
+      "date": "13/03/2023",
+      "reference number": "2500192",
+      "supplier": {
+        "_id": "644"
+      },
+      "items": [
+        {
+          "_id": "4127336",
+          "price": 5.95,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 10.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 6.47,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "zIAbh",
+      "date": "13/03/2023",
+      "reference number": "2500193",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "920",
+          "price": 81,
+          "quantity": 3
+        },
+        {
+          "_id": "1685",
+          "price": 20,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "388oa",
+      "date": "13/03/2023",
+      "reference number": "2500194",
+      "supplier": {
+        "_id": "550"
+      },
+      "items": [
+        {
+          "_id": "503",
+          "price": 129.9,
+          "quantity": 1
+        },
+        {
+          "_id": "503",
+          "price": 71.97,
+          "quantity": 1
+        },
+        {
+          "_id": "505",
+          "price": 134.95,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "n19Ri",
+      "date": "13/03/2023",
+      "reference number": "2500195",
+      "supplier": {
+        "_id": "550"
+      },
+      "items": [
+        {
+          "_id": "503",
+          "price": 49.9,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "WeXzE",
+      "date": "13/03/2023",
+      "reference number": "2500196",
+      "supplier": {
+        "_id": "550"
+      },
+      "items": [
+        {
+          "_id": "1664",
+          "price": 668.7,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "uWC5S",
+      "date": "13/03/2023",
+      "reference number": "2500197",
+      "supplier": {
+        "_id": "550"
+      },
+      "items": [
+        {
+          "_id": "1664",
+          "price": 59.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "NYlto",
+      "date": "13/03/2023",
+      "reference number": "2500198",
+      "supplier": {
+        "_id": "613"
+      },
+      "items": [
+        {
+          "_id": "920",
+          "price": 26,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "QgcDf",
+      "date": "16/03/2023",
+      "reference number": "2500199",
+      "supplier": {
+        "_id": "579"
+      },
+      "items": [
+        {
+          "_id": "955",
+          "price": 50,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "_id": "KSVsY",
+      "date": "13/03/2023",
+      "reference number": "2500200",
+      "supplier": {
+        "_id": "550"
+      },
+      "items": [
+        {
+          "_id": "1664",
+          "price": 115.8,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "7sCWW",
+      "date": "15/03/2023",
+      "reference number": "2500201",
+      "supplier": {
+        "_id": "550"
+      },
+      "items": [
+        {
+          "_id": "1664",
+          "price": 65.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "OYiye",
+      "date": "28/02/2023",
+      "reference number": "2500202",
+      "supplier": {
+        "_id": "610"
+      },
+      "items": [
+        {
+          "_id": "994",
+          "price": 50.01,
+          "quantity": 1
+        },
+        {
+          "_id": "995",
+          "price": 114.9,
+          "quantity": 1
+        },
+        {
+          "_id": "996",
+          "price": 19.89,
+          "quantity": 1
+        },
+        {
+          "_id": "997",
+          "price": 9.99,
+          "quantity": 1
+        },
+        {
+          "_id": "999",
+          "price": 12.79,
+          "quantity": -1
+        }
+      ]
+    },
+    {
+      "_id": "BhEWz",
+      "date": "15/03/2023",
+      "reference number": "2500203",
+      "supplier": {
+        "_id": "551"
+      },
+      "items": [
+        {
+          "_id": "1794",
+          "price": 85,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "VzdPF",
+      "date": "15/03/2023",
+      "reference number": "2500204",
+      "supplier": {
+        "_id": "522"
+      },
+      "items": [
+        {
+          "_id": "809",
+          "price": 44.9,
+          "quantity": 1.47
+        },
+        {
+          "_id": "802",
+          "price": 24.9,
+          "quantity": 0.97
+        },
+        {
+          "_id": "801",
+          "price": 69,
+          "quantity": 0.71
+        }
+      ]
+    },
+    {
+      "_id": "U6bpt",
+      "date": "15/03/2023",
+      "reference number": "2500205",
+      "supplier": {
+        "_id": "524"
+      },
+      "items": [
+        {
+          "_id": "408",
+          "price": 30,
+          "quantity": 0.25
+        },
+        {
+          "_id": "401",
+          "price": 99,
+          "quantity": 0.35
+        },
+        {
+          "_id": "403",
+          "price": 100,
+          "quantity": 0.56
+        },
+        {
+          "_id": "409",
+          "price": 90,
+          "quantity": 0.6
+        },
+        {
+          "_id": "406",
+          "price": 48,
+          "quantity": 0.75
+        }
+      ]
+    },
+    {
+      "_id": "OyFH5",
+      "date": "15/03/2023",
+      "reference number": "2500206",
+      "supplier": {
+        "_id": "518"
+      },
+      "items": [
+        {
+          "_id": "190",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "150",
+          "price": 13.9,
+          "quantity": 1
+        },
+        {
+          "_id": "49",
+          "price": 14.9,
+          "quantity": 1
+        },
+        {
+          "_id": "201",
+          "price": 17.9,
+          "quantity": 2
+        },
+        {
+          "_id": "35",
+          "price": 4.9,
+          "quantity": 1.86
+        },
+        {
+          "_id": "140",
+          "price": 6.9,
+          "quantity": 1
+        },
+        {
+          "_id": "215",
+          "price": 8.9,
+          "quantity": 0.62
+        },
+        {
+          "_id": "288",
+          "price": 11.9,
+          "quantity": 0.56
+        },
+        {
+          "_id": "50",
+          "price": 7.9,
+          "quantity": 0.34
+        },
+        {
+          "_id": "210",
+          "price": 27.9,
+          "quantity": 0.27
+        },
+        {
+          "_id": "40",
+          "price": 15.9,
+          "quantity": 1.51
+        },
+        {
+          "_id": "14562",
+          "price": 7.9,
+          "quantity": 0.73
+        },
+        {
+          "_id": "245",
+          "price": 18.9,
+          "quantity": 1.19
+        },
+        {
+          "_id": "32",
+          "price": 8.9,
+          "quantity": 0.99
+        },
+        {
+          "_id": "90",
+          "price": 9.9,
+          "quantity": 1.33
+        },
+        {
+          "_id": "265",
+          "price": 14.9,
+          "quantity": 0.35
+        },
+        {
+          "_id": "250",
+          "price": 13.9,
+          "quantity": 0.9
+        },
+        {
+          "_id": "70",
+          "price": 8.9,
+          "quantity": 0.96
+        }
+      ]
+    },
+    {
+      "_id": "RSEjt",
+      "date": "15/03/2023",
+      "reference number": "2500207",
+      "supplier": {
+        "_id": "516"
+      },
+      "items": [
+        {
+          "_id": "7.29E+12",
+          "price": 33.9,
+          "quantity": 1
+        },
+        {
+          "_id": "999889",
+          "price": 220,
+          "quantity": 0.18
+        },
+        {
+          "_id": "3350",
+          "price": 149,
+          "quantity": 0.26
+        },
+        {
+          "_id": "303",
+          "price": 69,
+          "quantity": 0.21
+        },
+        {
+          "_id": "24",
+          "price": 48,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "_id": "6OVKg",
+      "date": "15/03/2023",
+      "reference number": "2500208",
+      "supplier": {
+        "_id": "644"
+      },
+      "items": [
+        {
+          "_id": "72963753",
+          "price": 4.9,
+          "quantity": 2
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 4.1,
+          "quantity": 8
+        },
+        {
+          "_id": "7.29011E+12",
+          "price": 6.47,
+          "quantity": 8
+        },
+        {
+          "_id": "4131074",
+          "price": 6.23,
+          "quantity": 2
+        },
+        {
+          "_id": "4127329",
+          "price": 5.95,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 5.8,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "Hu8Sv",
+      "date": "19/03/2023",
+      "reference number": "2500209",
+      "supplier": {
+        "_id": "514"
+      },
+      "items": [
+        {
+          "_id": "7.29E+12",
+          "price": 18,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 21.9,
+          "quantity": 1
+        },
+        {
+          "_id": "7.29001E+12",
+          "price": 9.9,
+          "quantity": 1
+        },
+        {
+          "_id": "2004",
+          "price": 4,
+          "quantity": 3
+        },
+        {
+          "_id": "7.29E+12",
+          "price": 14.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "v3dh5",
+      "date": "16/03/2023",
+      "reference number": "2500210",
+      "supplier": {
+        "_id": "576"
+      },
+      "items": [
+        {
+          "_id": "933",
+          "price": 39.9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "_id": "XOkWp",
+      "date": "19/03/2023",
+      "reference number": "2500211",
+      "supplier": {
+        "_id": "506"
+      },
+      "items": [
+        {
+          "_id": "8061",
+          "price": 2821,
+          "quantity": 1
+        }
+      ]
+    }
+  ]

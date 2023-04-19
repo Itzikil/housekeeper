@@ -43,5 +43,5 @@ function loadItems() {
 
 
 function getItemById(itemId) {
-    return demoItems.filter(item => itemId === item._id)[0]
+    return demoItems.filter(item => itemId === item['bar-code'])[0]
 }

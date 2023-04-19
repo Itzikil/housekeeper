@@ -69,9 +69,9 @@ export const Bills = () => {
                                     <p className='text-center'>Price</p>
                                     <p className='text-end'>Total</p>
                                 </div>
-                                {bill.items.map(item => {
+                                {bill.items.map((item,idx) => {
                                     { currItem = itemService.getItemById(item._id) }
-                                    return <div key={item._id}>
+                                    return <div key={item._id + idx}>
                                         <div className='flex space-between flex1 align-center justify-center '>
                                             <p className='text-start'>{currItem?.name}</p>
                                             <p className='text-center'>{item.quantity % 1 === 0 ? (item.quantity) : item.quantity?.toFixed(2)}</p>
