@@ -23,10 +23,16 @@ export const Suppliers = () => {
         itemOpen === itemId ? setItemOpen(false) : setItemOpen(itemId)
     }
 
+    const onChangeFilter = ({ target }) => {
+        let value = target.value
+        setSuppliers(supplierService.loadSuppliers(value))
+    }
+
     if (!suppliers) return <div>Loading</div>
     return (
         <section>
             <h2 data-trans="suppliers">suppliers</h2>
+            <input type="text" onChange={onChangeFilter} className="input"/>
             <ul className="items-list">
                 {suppliers.map((supplier) =>
                     <li key={supplier._id}>

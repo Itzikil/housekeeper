@@ -1,47 +1,50 @@
 export const itemService = {
     loadItems,
-    getItemById
+    getItemById,
+    getDepartments,
+    getItemByDepartment
 }
 import demoItems from '../data/item.json'
 
-// const items = [
-//     {
-//         _id: 'a101',
-//         name: 'נפלאות קמח חיטה',
-//         'bar-code': '7290016144017',
-//     },
-//     {
-//         _id: 'a102',
-//         name: 'שמנת מתוקה',
-//         'bar-code': '7290114311038',
-//     },
-//     {
-//         _id: 'a103',
-//         name: 'חמאת נורמנדי',
-//         'bar-code': '7290102303878',
-//     },
-//     {
-//         _id: 'a104',
-//         name: 'חומוס ביתי 500 גר',
-//         'bar-code': '6934931906572',
-//     },
-//     {
-//         _id: 'a105',
-//         name: 'צדר וינטג',
-//         'bar-code': '336',
-//     },
-//     {
-//         _id: 'a106',
-//         name: 'אולד אמסטרדם',
-//         'bar-code': '387',
-//     },
-// ]
-
-function loadItems() {
-    return demoItems
+function loadItems(filterBy) {
+    if (filterBy) {
+        var items = demoItems.filter(item => item.name.toLocaleLowerCase().includes(filterBy))
+        return sort(items)
+    }
+    return sort(demoItems)
 }
 
 
 function getItemById(itemId) {
     return demoItems.filter(item => itemId === item['bar-code'])[0]
 }
+
+function getItemByDepartment(department) {
+    return demoItems.filter(item => department === item['department-name']) 
+}
+
+function sort(arr) {
+    return arr.sort((a, b) => {
+        return  a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase() ? -1 : 1
+        
+        // if (a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase()) {
+        //     return -1
+        // }
+        // if (a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase()) {
+        //     return 1
+        // }
+
+        return 0
+    })
+}
+
+function getDepartments() {
+    var departments = []
+    demoItems.map(item=>{
+        if (!departments.includes(item['department-name']) && item['department-name']) {
+            departments.push(item['department-name'])
+        }
+    })
+    return departments
+}
+

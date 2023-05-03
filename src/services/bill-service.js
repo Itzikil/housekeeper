@@ -2,9 +2,12 @@ export const billService = {
     loadBills,
     getEmptyBill,
     getItemsLine,
-    addBill
+    addBill,
+    getItemSummary,
+    filterByDays
 }
 import bills from '../data/bill.json'
+import { supplierService } from './supplier-service'
 
 // const bills = [
 //     {
@@ -48,8 +51,16 @@ function getItemsLine() {
     return [{ name: '', price: '', quantity: '' }]
 }
 
-function loadBills() {
-    return bills
+function loadBills(filterBy) {
+    /////////////try to understand how to check includes(multiple strings in array)
+    
+    // if (filterBy){
+    //     var suppliers = getBillBySupplier(filterBy)
+    //     var filteredBills = bills.filter(bill => suppliers.map(supplierId => bill.supplier._id.includes(supplierId)))
+    //     console.log(filteredBills);
+    //     return sortByDate(filteredBills,'date')
+    // }
+    return sortByDate(bills,'date')
 }
 
 function addBill(bill) {
@@ -67,8 +78,40 @@ export function makeId(length = 5) {
     return text;
 }
 
+function getBillBySupplier(name){
+    var suppliers = supplierService.getSupplierByName(name)
+    var suplliersIds = suppliers.map(supplier => supplier._id)
+    console.log(suplliersIds);
+    return suplliersIds
+}
 
+function getItemSummary(itemId){
+    var pricesArray= []
+    bills.forEach((bill) => {
+        bill.items.forEach((item) => {
+          if (item._id === itemId) {
+            item.date = bill.date
+            item['reference number'] = bill['reference number']
+            pricesArray.push(item);
+          }
+        });
+      });
+      return pricesArray
+}
 
+function filterByDays(array , days) {
+    const thirtyDaysAgo = new Date();
+    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - +days);
+  
+    return array.filter(obj => {
+      const objDate = new Date(obj.date);
+      return objDate >= thirtyDaysAgo;
+    });
+  }
+  
+//   const filteredArray = filterLast30Days(bills);
+//   console.log(filteredArray);
+  
 // const fs = require('fs')
 // import demoBill from '../data/demo-bill.json'
 // const filePath = '../data/bill.json';
@@ -116,4 +159,30 @@ export function makeId(length = 5) {
 // function replaceIt(){
 //     str.replace(',','')
 //     console.log(str.replace(',',''));
+// }
+
+
+function sortByDate(arr, dateProp) {
+    return arr.sort(function(a, b) {
+      var dateA = new Date(a[dateProp]);
+      var dateB = new Date(b[dateProp]);
+      return dateB - dateA ;
+    });
+/// the date is suppose to be yyyy-mm-dd so the sort can sort  it right
+}
+
+  
+// function sort(arr) {
+//     return arr.sort((a, b) => {
+//         return  a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase() ? -1 : 1
+        
+//         // if (a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase()) {
+//         //     return -1
+//         // }
+//         // if (a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase()) {
+//         //     return 1
+//         // }
+
+//         return 0
+//     })
 // }

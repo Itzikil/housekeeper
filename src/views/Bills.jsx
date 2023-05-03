@@ -44,16 +44,28 @@ export const Bills = () => {
         itemOpen === itemId ? setItemOpen(false) : setItemOpen(itemId)
     }
 
+    const onChangeFilter = ({ target }) => {
+        let value = target.value
+        setBills(billService.loadBills(value))
+    }
+
     var currSupplier
     var currItem
     return (
-        <section>
+        <section className='bill-section'>
             <h2 data-trans="bills">bills</h2>
+            {/* <input type="text" onChange={onChangeFilter} /> */}
+            <button onClick={toggleForm}>{!openForm ? 'Add new bill' : 'Close form'}</button>
+            {openForm && <AdditionForm refresh={refreshing} />}
+
             <ul className="items-list">
                 {bills.map(bill => {
                     { currSupplier = supplierService.getSupplierById(bill.supplier._id) }
                     return <li key={bill._id} className="bill-receipte">
-                        <button onClick={() => openItem(bill._id)}>{currSupplier.name}</button>
+                        <div className='flex align-center gap10'>
+                            <button onClick={() => openItem(bill._id)}>{currSupplier.name}</button>
+                            <p>{bill.date}</p>
+                        </div>
                         {itemOpen === bill._id && <div>
                             <div className='bill-head'>
                                 <h3>{currSupplier.name}</h3>
@@ -64,12 +76,12 @@ export const Bills = () => {
                             </div>
                             <div className='bill-body'>
                                 <div className='flex space-between flex1 align-center justify-center '>
-                                    <p className='text-start'>Name</p>
-                                    <p className='text-center'>Quantity</p>
-                                    <p className='text-center'>Price</p>
-                                    <p className='text-end'>Total</p>
+                                    <p className='text-start bold'>Name</p>
+                                    <p className='text-center bold'>Quantity</p>
+                                    <p className='text-center bold'>Price</p>
+                                    <p className='text-end bold'>Total</p>
                                 </div>
-                                {bill.items.map((item,idx) => {
+                                {bill.items.map((item, idx) => {
                                     { currItem = itemService.getItemById(item._id) }
                                     return <div key={item._id + idx}>
                                         <div className='flex space-between flex1 align-center justify-center '>
@@ -91,9 +103,6 @@ export const Bills = () => {
                 }
                 )}
             </ul>
-
-            <button onClick={toggleForm}>Add new bill</button>
-            {openForm && <AdditionForm refresh={refreshing} />}
             <button onClick={toggleDev}>{!openDev ? ' למפתחים' : 'סגור'}</button>
             {openDev &&
                 <pre >

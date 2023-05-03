@@ -215,6 +215,34 @@
     gap: 10px;
 }
 
-.flex1 >*{
+.gap20 {
+    gap: 20px;
+}
+
+.flex1>* {
     flex: 1;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: rgb(221, 220, 231);
+    border-radius: 12px;
+    padding-inline: 15px;
+    padding-block: 4px;
+}
+
+.btn {
+    border-radius: 10px;
+    outline: none !important;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: rgba(156, 172, 182, 0.658);
+        border-color: transparent;
+    }
 }

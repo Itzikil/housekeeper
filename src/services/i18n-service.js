@@ -20,6 +20,22 @@ var gTrans = {
         en: 'city',
         he: 'עיר',
     },
+    'ביגוד': {
+        en: 'Clothes',
+        he: 'ביגוד',
+    },
+    'רכב': {
+        en: 'Car',
+        he: 'רכב',
+    },
+    'ממתקים': {
+        en: 'Sweets',
+        he: 'ממתקים',
+    },
+    'יינות': {
+        en: 'Winery',
+        he: 'יינות',
+    },
     'Fruit': {
         en: 'Fruit',
         he: 'פירות',
@@ -55,6 +71,10 @@ var gTrans = {
     'Department': {
         en: 'Department',
         he: 'מחלקה',
+    },
+    'summary': {
+        en: 'summary',
+        he: 'סיכום',
     },
     'bill': {
         en: 'bill',
@@ -92,6 +112,14 @@ var gTrans = {
         en: 'rate',
         he: 'דירוג',
     },
+    'total': {
+        en: 'total',
+        he: 'סהכ',
+    },
+    'quantity': {
+        en: 'quantity',
+        he: 'כמות',
+    },
     'price': {
         en: 'price',
         he: 'מחיר',
@@ -107,6 +135,10 @@ var gTrans = {
     'read': {
         en: 'read',
         he: 'קרא',
+    },
+    'date': {
+        en: 'date',
+        he: 'תאריך',
     },
     'update': {
         en: 'update',

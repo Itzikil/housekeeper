@@ -60,38 +60,39 @@ export const AdditionForm = ({ refresh }) => {
     }
 
     return (
-        <div>
-            <form onSubmit={onSaveForm} className="flex column align-center">
-                <label>Supplier</label>
-                <select onChange={handleChange} name="supplier">
-                    <option>Choose supplier</option>
-                    {supplierService.loadSuppliers().map((supplier, idx) =>
-                        <option key={supplier._id + idx} value={supplier._id}>{supplier.name}</option>
-                    )}
-                </select>
-                <input type="date" onChange={handleChange} value={form.date} name="date" />
-                <input type="number" onChange={handleChange} value={form.total} name="total" placeholder="Total" />
-                <input type="text" onChange={handleChange} value={form['reference number']} name="reference number" placeholder="Reference number" />
+        <div className="additionForm">
+            <form onSubmit={onSaveForm} >
+                <div className="input-container">
+                    <select onChange={handleChange} name="supplier" className="input">
+                        <option>Choose supplier</option>
+                        {supplierService.loadSuppliers().map((supplier, idx) =>
+                            <option key={supplier._id + idx} value={supplier._id}>{supplier.name}</option>
+                        )}
+                    </select>
+                    <input type="date" onChange={handleChange} value={form.date} name="date" className="input"/>
+                    <input type="number" onChange={handleChange} value={form.total} name="total" placeholder="Total" className="input"/>
+                    <input type="text" onChange={handleChange} value={form['reference number']} name="reference number" placeholder="Reference number" className="input"/>
+                </div>
                 <label>Items</label>
-                <div className="flex column gap10">
+                <div className="flex column gap20">
                     {itemsLine.map((item, idx) =>
-                        <div className="flex gap10" key={idx}>
-                            <select onChange={(ev) => handleChange(ev, idx)} name="_id">
+                        <div className="flex gap10 wrap" key={idx}>
+                            <button onClick={() => removeItemLine(idx)} className="input">X</button>
+                            <select onChange={(ev) => handleChange(ev, idx)} name="_id" className="input select-item">
                                 <option>Choose item</option>
                                 {itemService.loadItems().map((item, idx) =>
                                     <option key={item._id + idx} value={item._id}>{item.name}</option>
                                 )}
                             </select>
                             {/* <input type="text" onChange={(ev) => handleChange(ev, idx)} value={item.name} name="name" placeholder="Item name" /> */}
-                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.quantity} name="quantity" placeholder="Quantity" />
-                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.price} name="price" placeholder="Price per 1" />
+                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.quantity} name="quantity" placeholder="Quantity" className="input"/>
+                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.price} name="price" placeholder="Price per 1" className="input"/>
                             <p>₪{item.quantity * item.price}</p>
-                            <button onClick={() => removeItemLine(idx)}>X</button>
                         </div>
                     )}
                 </div>
                 <button type="button" onClick={addItemLine}>Add more item</button>
-                <button>Submit</button>
+                <button className="btn">Submit</button>
             </form>
         </div>
     )

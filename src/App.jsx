@@ -7,6 +7,7 @@ import { Bills } from './views/Bills';
 import './assets/scss/global.scss';
 import { i18Service } from './services/i18n-service';
 import { useEffect } from 'react';
+import { Summary } from './views/Summary';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/bills" element={< Bills />} />
             <Route path="/items" element={< Items />} />
             <Route path="/" element={< Home  translate={translate}/>} />
+            <Route path="/summary" element={< Summary />} />
           </Routes>
         </main>
       </div>
