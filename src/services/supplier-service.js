@@ -1,57 +1,34 @@
 export const supplierService = {
     loadSuppliers,
     getSupplierById,
-    getSupplierByName
+    getSupplierByName,
+    loadGroups,
+    getSupplierByGroup
 }
 import demoSuppliers from '../data/supplier.json'
 
-// const suppliers = [
-//     {
-//         _id: '101',
-//         name: 'הבסטה של אבי',
-//         phone: '03-5731674',
-//         bn: 516506938
-//     },
-//     {
-//         _id: '102',
-//         name: 'פיין מרקט',
-//         phone: '03-6748633',
-//         bn: 512711730
-//     },
-//     {
-//         _id: '103',
-//         name: 'יש לי בוטן',
-//         phone: '03-5712878',
-//         bn: 512368721
-//     },
-//     {
-//         _id: '104',
-//         name: 'צארום בית הבשר והעוף',
-//         phone: '???',
-//         bn: 514297514
-//     },
-//     {
-//         _id: '105',
-//         name: 'חוות נעמי ניהול מעדניות',
-//         phone: '077-5640445',
-//         bn: 516116779
-//     },
-//     {
-//         _id: '106',
-//         name: 'י.ר המקום של מעיין',
-//         phone: '077-5243588',
-//         bn: 516549185
-//     },
-// ]
+function loadGroups(filterBy) {
+    var groups = []
+    demoSuppliers.forEach(supplier => {
+        const existingObject = groups.find(group => group.code === supplier['group-code']);
 
-function save() {
-    return demoSuppliers
+        if (!existingObject) {
+            groups.push({ name: supplier['group-name'], code: supplier['group-code'] });
+        }
+    });
+    if (filterBy) {
+        var filteredgroups = groups.filter(group => group.name.toLocaleLowerCase().includes(filterBy))
+        return sort(filteredgroups)
+    }
+    return sort(groups)
 }
 
-function loadSuppliers(filterBy) {
+function loadSuppliers(filterBy, groupCode) {
     if (filterBy) {
         var suppliers = demoSuppliers.filter(supplier => supplier.name.toLocaleLowerCase().includes(filterBy))
-        console.log(filterBy);
+        if (groupCode) {
+            suppliers = getSupplierByGroup(groupCode , suppliers)
+        }
         return sort(suppliers)
     }
     return sort(demoSuppliers)
@@ -62,30 +39,21 @@ function getSupplierById(supplierId) {
 }
 
 function getSupplierByName(supplierName) {
-    console.log(supplierName);
     return demoSuppliers.filter(supplier => supplier.name.toLocaleLowerCase().includes(supplierName))
 }
 
-function sortByDate(arr, dateProp) {
-    arr.sort(function (a, b) {
-        var dateA = new Date(a[dateProp]);
-        var dateB = new Date(b[dateProp]);
-        return dateA - dateB;
-    });
+function getSupplierByGroup(supplierGroup, suppliers = demoSuppliers) {
+    var filteredArr = suppliers.filter(supplier => supplier['group-code'].toLocaleLowerCase().includes(supplierGroup))
+    return filteredArr
+    ////sort???
 }
-
 
 function sort(arr) {
     return arr.sort((a, b) => {
-        return a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase() ? -1 : 1
-
-        // if (a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase()) {
-        //     return -1
-        // }
-        // if (a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase()) {
-        //     return 1
-        // }
-
-        return 0
+        if (a._id) {
+            return a.name < b.name ? -1 : 1
+        } else {
+            return +a.code < +b.code ? -1 : 1
+        }
     })
 }

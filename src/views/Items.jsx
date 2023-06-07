@@ -6,21 +6,31 @@ export const Items = () => {
 
     const [openDev, setOpenDev] = useState(false)
     const [itemOpen, setItemOpen] = useState()
-    const [items, setItems] = useState(itemService.loadItems())
-
+    const [items, setItems] = useState()
+    const [showItems, setShowItems] = useState(false)
     const [depratmentOpen, setDepratmentOpen] = useState()
     const [departments, setDepartments] = useState(itemService.getDepartments())
 
+    const [input1, setInput1] = useState('')
+    const [input2, setInput2] = useState('')
+
     useEffect(() => {
         translate()
+        console.log(12);
     }, [itemOpen])
 
     const openDepartment = (department) => {
-        if (depratmentOpen === department) setDepratmentOpen(false)
-        else {
-            setItems(itemService.getItemByDepartment(department))
-            setDepratmentOpen(department)
-        }
+        // if (depratmentOpen._id === department) setDepratmentOpen('')
+        // else {
+        setItems(itemService.getItemByDepartment(department.id))
+        setDepratmentOpen(department)
+        // }
+        setShowItems(true)
+    }
+
+    const backToDepartments = () => {
+        setDepratmentOpen('')
+        setShowItems(false)
     }
 
     const translate = () => {
@@ -36,35 +46,50 @@ export const Items = () => {
 
     const onChangeFilter = ({ target }) => {
         let value = target.value
-        setItems(itemService.loadItems(value))
+        let name = target.name
+        if (name === 'department') {
+            setShowItems(false)
+            setDepartments(itemService.getDepartments(value))
+            setInput1(value)
+            setInput2('')
+        } else {
+            setItems(itemService.loadItems(value, depratmentOpen.id))
+            setShowItems(true)
+            setInput2(value)
+            setInput1('')
+            if (!value) {
+                setShowItems(false)
+            }
+        }
     }
 
-    if (!items) return <div>Loading</div>
+    if (!items && !departments) return <div>Loading</div>
     return (
-        <section>
+        <section className="items-container">
             <h2 data-trans="items">items</h2>
-            <input type="text" onChange={onChangeFilter} className="input"/>
+            {depratmentOpen && <h3>Results for <span className="bold"> {depratmentOpen.name}  ({depratmentOpen.id})</span> </h3>}
+            {depratmentOpen && <button onClick={backToDepartments}>Back to department</button>}
+            {!depratmentOpen && <input value={input1} type="text" onChange={onChangeFilter} name="department" className="input" placeholder="search department" />}
+            <input value={input2} type="text" onChange={onChangeFilter} name="item" className="input" placeholder="search item" />
             {
                 <ul className="items-list">
-                    {departments.map((department) =>
-                        <li key={department}>
-                            <button onClick={() => openDepartment(department)}>{department}</button>
-                            <ul className="items-list">
-                                {(depratmentOpen === department) && items.map((item) =>
-                                    <li key={item._id}>
-                                        <button onClick={() => openItem(item._id)}>{item.name}</button>
-                                        {(itemOpen === item._id) && <div>
-                                            {/* <p>{item["bar-code"]}</p>
-                                            <p>{item["department"]}</p> */}
-                                            <p><span data-trans="Department"> Department</span>: <span data-trans={item["department-name"]} className="bold">
-                                                {item["department-name"]}</span></p>
-                                            <p>Department Number: <span className="bold"> {item["department"]} </span></p>
-                                        </div>}
-                                    </li>
-                                )}
-                            </ul>
+                    {!showItems ? departments.map((department) =>
+                        <li key={department.id}>
+                            <button onClick={() => openDepartment(department)}>{department.name}</button>
                         </li>
-                    )}
+                    ) :
+                        items.map((item) =>
+                            <li key={item._id}>
+                                <button onClick={() => openItem(item._id)}>{item.name}</button>
+                                {(itemOpen === item._id) && <div>
+                                    <p>Bar code - <span className="bold"> {item['bar-code']}</span></p>
+                                    {/* <p><span data-trans="Department"> Department</span>: <span data-trans={item["department-name"]} className="bold">
+                                        {item["department-name"]}</span></p>
+                                    <p><span data-trans="Department number">Department Number: </span> <span className="bold"> {item["department"]} </span></p> */}
+                                </div>}
+                            </li>
+                        )
+                    }
                 </ul>
             }
             <button onClick={toggleDev}>{!openDev ? ' למפתחים' : 'סגור'}</button>

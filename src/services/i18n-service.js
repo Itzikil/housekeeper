@@ -8,6 +8,26 @@ export const i18Service = {
 }
 
 var gTrans = {
+    'supplier group': {
+        en: 'supplier group',
+        he: 'קבוצת ספקים',
+    },
+    'Close form': {
+        en: 'Close form',
+        he: 'סגור טופס',
+    },
+    'Add new bill': {
+        en: 'Add new bill',
+        he: 'הוסף חשבון',
+    },
+    'Department number': {
+        en: 'Department number',
+        he: 'מספר מחלקה',
+    },
+    'Reference number': {
+        en: 'Reference number',
+        he: 'אסמכתא',
+    },
     'Total': {
         en: 'Total',
         he: 'סה"כ',
@@ -84,6 +104,10 @@ var gTrans = {
         en: 'bills',
         he: 'חשבונות',
     },
+    'Supplier': {
+        en: 'Supplier',
+        he: 'ספק',
+    },
     'supplier': {
         en: 'supplier',
         he: 'ספק',
@@ -116,9 +140,21 @@ var gTrans = {
         en: 'total',
         he: 'סהכ',
     },
+    'Name': {
+        en: 'Name',
+        he: 'שם',
+    },
+    'Quantity': {
+        en: 'Quantity',
+        he: 'כמות',
+    },
     'quantity': {
         en: 'quantity',
         he: 'כמות',
+    },
+    'Price': {
+        en: 'Price',
+        he: 'מחיר',
     },
     'price': {
         en: 'price',
@@ -135,6 +171,18 @@ var gTrans = {
     'read': {
         en: 'read',
         he: 'קרא',
+    },
+    'On': {
+        en: 'On',
+        he: 'על',
+    },
+    'RN': {
+        en: 'RN',
+        he: 'אסמכתא',
+    },
+    'Date': {
+        en: 'Date',
+        he: 'תאריך',
     },
     'date': {
         en: 'date',
@@ -196,9 +244,8 @@ function getTrans(transKey) {
 }
 
 function setLang(lang = gCurrLang) {
-    console.log(lang);
     gCurrLang = lang
-    console.log(lang);
+    // console.log(lang);
     if (lang === 'he') document.body.classList.add('rtl')
     else document.body.classList.remove('rtl')
     storageService.store('lang', gCurrLang)

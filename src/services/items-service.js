@@ -6,45 +6,50 @@ export const itemService = {
 }
 import demoItems from '../data/item.json'
 
-function loadItems(filterBy) {
+function loadItems(filterBy, department) {
     if (filterBy) {
         var items = demoItems.filter(item => item.name.toLocaleLowerCase().includes(filterBy))
+        if (department) {
+            items = getItemByDepartment(department, items)
+        }
         return sort(items)
+    } else if (!filterBy && department) {
+        return getItemByDepartment(department)
     }
     return sort(demoItems)
 }
-
 
 function getItemById(itemId) {
     return demoItems.filter(item => itemId === item['bar-code'])[0]
 }
 
-function getItemByDepartment(department) {
-    return demoItems.filter(item => department === item['department-name']) 
+function getItemByDepartment(departmentId, itemsArray = demoItems) {
+    return sort(itemsArray.filter(item => departmentId === item['department']))
 }
 
 function sort(arr) {
     return arr.sort((a, b) => {
-        return  a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase() ? -1 : 1
-        
-        // if (a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase()) {
-        //     return -1
-        // }
-        // if (a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase()) {
-        //     return 1
-        // }
-
-        return 0
+        if (a.id) {
+            return +a.id.toLocaleLowerCase() < +b.id.toLocaleLowerCase() ? -1 : 1
+        } else {
+            return a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase() ? -1 : 1
+        }
     })
 }
 
-function getDepartments() {
+function getDepartments(filterBy) {
     var departments = []
-    demoItems.map(item=>{
-        if (!departments.includes(item['department-name']) && item['department-name']) {
-            departments.push(item['department-name'])
+    demoItems.forEach(item => {
+        if (!item['department-name']) return
+        const existingObject = departments.find(department => item['department-name'] === department.name)
+        if (!existingObject) {
+            departments.push({ name: item['department-name'], id: item['department'] })
         }
     })
-    return departments
+    if (filterBy) {
+        var filteredDepartments = departments.filter(department => department.name.toLocaleLowerCase().includes(filterBy))
+        return sort(filteredDepartments)
+    }
+    return sort(departments)
 }
 

@@ -4,63 +4,42 @@ export const billService = {
     getItemsLine,
     addBill,
     getItemSummary,
-    filterByDays
+    filterByDays,
+    getGroupById,
+    loadGroups
 }
 import bills from '../data/bill.json'
+import groups from '../data/groups.json'
 import { supplierService } from './supplier-service'
-
-// const bills = [
-//     {
-//         _id: 'b101',
-//         date: '2012-04-01',
-//         'reference number': '12211311',
-//         supplier: {
-//             _id: '516',
-//         },
-//         items: [
-//             { _id: 'a103', price: 14.90, quantity: 1 },
-//             { _id: 'a104', price: 25, quantity: 1 },
-//             { _id: 'a105', price: 159, quantity: 0.562 },
-//             { _id: 'a106', price: 149, quantity: 0.318 },
-//         ]
-//     },
-//     {
-//         _id: 'b102',
-//         date: '2017-04-01',
-//         'reference number': '1111111',
-//         supplier: {
-//             _id: '644',
-//         },
-//         items: [
-//             { _id: 'a101', price: 8.90, quantity: 1 },
-//             { _id: 'a102', price: 7.90, quantity: 2 },
-//         ]
-//     },
-// ]
 
 function getEmptyBill() {
     return {
         supplier: { _id: '' },
         date: '',
         total: '',
-        'reference number': ''
+        'reference number': '',
+        discount: ''
     }
 }
 
 function getItemsLine() {
-    return [{ name: '', price: '', quantity: '' }]
+    return [{ name: '', price: '', quantity: '' ,discount: ''}]
 }
 
 function loadBills(filterBy) {
-    /////////////try to understand how to check includes(multiple strings in array)
-    
-    // if (filterBy){
-    //     var suppliers = getBillBySupplier(filterBy)
-    //     var filteredBills = bills.filter(bill => suppliers.map(supplierId => bill.supplier._id.includes(supplierId)))
-    //     console.log(filteredBills);
-    //     return sortByDate(filteredBills,'date')
-    // }
+    if (filterBy){
+        var filteredBills = bills.filter(bill => bill.supplier.name.includes(filterBy))
+        return sortByDate(filteredBills,'date')
+    }
     return sortByDate(bills,'date')
+}
+
+function loadGroups(){
+return groups
+}
+
+function getGroupById(groupId) {
+    return groups.filter(group => group['group-code'] === groupId)[0]
 }
 
 function addBill(bill) {
@@ -85,18 +64,29 @@ function getBillBySupplier(name){
     return suplliersIds
 }
 
-function getItemSummary(itemId){
+function getItemSummary(itemId, groupCode){
     var pricesArray= []
     bills.forEach((bill) => {
-        bill.items.forEach((item) => {
-          if (item._id === itemId) {
-            item.date = bill.date
-            item['reference number'] = bill['reference number']
-            pricesArray.push(item);
-          }
-        });
+        if (!itemId && groupCode === bill.supplier['group-code']) {
+            bill.items.forEach((item) => {
+                  item.date = bill.date
+                  item['reference number'] = bill['reference number']
+                  pricesArray.push(item);
+                  item.supplier = bill.supplier
+                }
+              );
+        } else {
+            bill.items.forEach((item) => {
+                if (item._id === itemId) {
+                    item.date = bill.date
+                    item['reference number'] = bill['reference number']
+                    pricesArray.push(item);
+                  item.supplier = bill.supplier
+                }
+            });
+        }
       });
-      return pricesArray
+      return sortByDate(pricesArray)
 }
 
 function filterByDays(array , days) {
@@ -107,10 +97,7 @@ function filterByDays(array , days) {
       const objDate = new Date(obj.date);
       return objDate >= thirtyDaysAgo;
     });
-  }
-  
-//   const filteredArray = filterLast30Days(bills);
-//   console.log(filteredArray);
+}
   
 // const fs = require('fs')
 // import demoBill from '../data/demo-bill.json'
@@ -161,7 +148,6 @@ function filterByDays(array , days) {
 //     console.log(str.replace(',',''));
 // }
 
-
 function sortByDate(arr, dateProp) {
     return arr.sort(function(a, b) {
       var dateA = new Date(a[dateProp]);
@@ -170,7 +156,6 @@ function sortByDate(arr, dateProp) {
     });
 /// the date is suppose to be yyyy-mm-dd so the sort can sort  it right
 }
-
   
 // function sort(arr) {
 //     return arr.sort((a, b) => {

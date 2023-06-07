@@ -1,0 +1,82 @@
+[
+    {
+      "group-code": "51",
+      "group-name": "ספקי מזון"
+    },
+    {
+      "group-code": "58",
+      "group-name": "ספקי תרומות"
+    },
+    {
+      "group-code": "52",
+      "group-name": "ספקי מחשבים ותקשורת"
+    },
+    {
+      "group-code": "56",
+      "group-name": "ספקים פיננסים"
+    },
+    {
+      "group-code": "55",
+      "group-name": "ספקי רכב"
+    },
+    {
+      "group-code": "65",
+      "group-name": "ספקי מכשירים"
+    },
+    {
+      "group-code": "50",
+      "group-name": "מוסדות"
+    },
+    {
+      "group-code": "57",
+      "group-name": "ספקי ביטוח"
+    },
+    {
+      "group-code": "60",
+      "group-name": "ספק רפואי"
+    },
+    {
+      "group-code": "54",
+      "group-name": "ספקי אחזקה"
+    },
+    {
+      "group-code": "53",
+      "group-name": "רשויות שלטון"
+    },
+    {
+      "group-code": "62",
+      "group-name": "ספקי פנאי"
+    },
+    {
+      "group-code": "63",
+      "group-name": "ספקי ביגוד והנעלה"
+    },
+    {
+      "group-code": "61",
+      "group-name": "ספקי הכשרה מקצועית"
+    },
+    {
+      "group-code": "64",
+      "group-name": "ספקי מתנות"
+    },
+    {
+      "'group-code'": "58",
+      "group-name": "ספקי תרומות"
+    },
+    {
+      "group-code": "59",
+      "group-name": "שונות"
+    },
+    {
+      "group-code": "66",
+      "group-name": "מצוות"
+    },
+    {
+      "group-code": "67",
+      "group-name": "ספקי ריהוט"
+    },
+    {
+      "group-code": "72",
+      "group-name": "בנייה"
+    }
+  ]

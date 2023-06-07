@@ -13,7 +13,7 @@ export const AdditionForm = ({ refresh }) => {
 
     const onSaveForm = (ev) => {
         ev.preventDefault()
-        if (!form.supplier._id) return
+        if (!form.supplier._id  || !form.date || !form["reference number"]) return
         form.items = itemsLine
         billService.addBill(form)
         setForm(billService.getEmptyBill())
@@ -37,7 +37,7 @@ export const AdditionForm = ({ refresh }) => {
     const handleChange = ({ target }, idx) => {
         const field = target.name
         let value = target.value
-
+        console.log(itemsLine);
         switch (target.type) {
             case 'number':
             case 'range':
@@ -49,9 +49,12 @@ export const AdditionForm = ({ refresh }) => {
             default:
                 break;
         }
-        console.log(field);
         if (idx || idx === 0) {
+            if (value < 10 && value % 1 != 0) {
+                value = value.toFixed(3)
+            }
             itemsLine[idx][field] = value
+
         }
         else if (field === 'supplier') form.supplier._id = value
         else form[field] = value
@@ -69,9 +72,9 @@ export const AdditionForm = ({ refresh }) => {
                             <option key={supplier._id + idx} value={supplier._id}>{supplier.name}</option>
                         )}
                     </select>
-                    <input type="date" onChange={handleChange} value={form.date} name="date" className="input"/>
-                    <input type="number" onChange={handleChange} value={form.total} name="total" placeholder="Total" className="input"/>
-                    <input type="text" onChange={handleChange} value={form['reference number']} name="reference number" placeholder="Reference number" className="input"/>
+                    <input type="date" onChange={handleChange} value={form.date} name="date" className="input" />
+                    <input type="number" onChange={handleChange} value={form.total} name="total" placeholder="Total" className="input" />
+                    <input type="text" onChange={handleChange} value={form['reference number']} name="reference number" placeholder="Reference number" className="input" />
                 </div>
                 <label>Items</label>
                 <div className="flex column gap20">
@@ -81,16 +84,21 @@ export const AdditionForm = ({ refresh }) => {
                             <select onChange={(ev) => handleChange(ev, idx)} name="_id" className="input select-item">
                                 <option>Choose item</option>
                                 {itemService.loadItems().map((item, idx) =>
-                                    <option key={item._id + idx} value={item._id}>{item.name}</option>
+                                    <option key={item._id + idx} value={item["bar-code"]}>{item.name}</option>
                                 )}
                             </select>
                             {/* <input type="text" onChange={(ev) => handleChange(ev, idx)} value={item.name} name="name" placeholder="Item name" /> */}
-                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.quantity} name="quantity" placeholder="Quantity" className="input"/>
-                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.price} name="price" placeholder="Price per 1" className="input"/>
-                            <p>₪{item.quantity * item.price}</p>
+                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.quantity} name="quantity" placeholder="Quantity" className="input" />
+                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.price} name="price" placeholder="Price per 1" className="input" />
+                            <input type="number" onChange={(ev) => handleChange(ev, idx)} value={item.discount} name="discount" placeholder="discount" className="input" />
+                            <p>₪{((item.quantity * item.price) - item.discount)?.toFixed(2)}</p>
                         </div>
                     )}
                 </div>
+                <div>
+                    <input type="number" onChange={(ev) => handleChange(ev)} value={form.discount} name="discount" placeholder="total discount" className="input" />
+                </div>
+                <h3>Sum ₪{(itemsLine.reduce((acc, item) => acc + ((item.quantity * item.price) - item.discount), 0)- form.discount)?.toFixed(2)}</h3>
                 <button type="button" onClick={addItemLine}>Add more item</button>
                 <button className="btn">Submit</button>
             </form>
