@@ -66,7 +66,7 @@ export const MyItems = () => {
                         <button onClick={() => openEdit(item)}>{item._id === editable ? 'Close Edit' : 'Edit'}</button>
                         {editable === item?._id ? <div>
                             <input type="text" name="name" value={ItemEdit.name} onChange={handleChange} />
-                            <input type="text" name="number" value={ItemEdit.number} onChange={handleChange}/>
+                            <input type="text" name="number" value={ItemEdit.number} onChange={handleChange} placeholder="number"/>
                             <button onClick={editItem}>Change</button>
                         </div>
                             : ''}
