@@ -3,31 +3,35 @@ export const supplierService = {
     getSupplierById,
     getSupplierByName,
     loadGroups,
-    getSupplierByGroup
+    getSupplierByGroup,
+    addSupplier
 }
+
 import demoSuppliers from '../data/supplier.json'
+import groups from '../data/groups.json'
+import { utilsService } from './utils-service'
 
 function loadGroups(filterBy) {
-    var groups = []
-    demoSuppliers.forEach(supplier => {
-        const existingObject = groups.find(group => group.code === supplier['group-code']);
+    // var groups = []
+    // demoSuppliers.forEach(supplier => {
+    //     const existingObject = groups.find(group => group.code === supplier['group-code']);
 
-        if (!existingObject) {
-            groups.push({ name: supplier['group-name'], code: supplier['group-code'] });
-        }
-    });
+    //     if (!existingObject) {
+    //         groups.push({ name: supplier['group-name'], code: supplier['group-code'] });
+    //     }
+    // });
     if (filterBy) {
         var filteredgroups = groups.filter(group => group.name.toLocaleLowerCase().includes(filterBy))
         return sort(filteredgroups)
     }
-    return sort(groups)
+    return sort(groups, 'by id')
 }
 
 function loadSuppliers(filterBy, groupCode) {
     if (filterBy) {
         var suppliers = demoSuppliers.filter(supplier => supplier.name.toLocaleLowerCase().includes(filterBy))
         if (groupCode) {
-            suppliers = getSupplierByGroup(groupCode , suppliers)
+            suppliers = getSupplierByGroup(groupCode, suppliers)
         }
         return sort(suppliers)
     }
@@ -48,12 +52,17 @@ function getSupplierByGroup(supplierGroup, suppliers = demoSuppliers) {
     ////sort???
 }
 
-function sort(arr) {
+function sort(arr, byId) {
     return arr.sort((a, b) => {
-        if (a._id) {
-            return a.name < b.name ? -1 : 1
+        if (byId) {
+            return +a._id < +b._id ? -1 : 1
         } else {
-            return +a.code < +b.code ? -1 : 1
+            return a.name < b.name ? -1 : 1
         }
     })
+}
+
+function addSupplier(supplier) {
+    supplier._id = utilsService.makeId()
+    demoSuppliers.push(supplier)
 }

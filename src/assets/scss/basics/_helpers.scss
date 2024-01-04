@@ -47,6 +47,10 @@
         align-items: start;
     }
 
+    &.align-end {
+        align-items: end;
+    }
+
     &.wrap {
         flex-wrap: wrap;
     }
@@ -75,6 +79,11 @@
 
 .text-start {
     text-align: start;
+    ///permenant util i will find where to put it
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
 }
 
 .text-end {
@@ -249,4 +258,20 @@
         background-color: rgba(156, 172, 182, 0.658);
         border-color: transparent;
     }
+}
+
+ul {
+    padding: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.pointer{
+    cursor: pointer;
 }

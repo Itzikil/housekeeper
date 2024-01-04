@@ -1,0 +1,31 @@
+[
+    {
+        "_id": 1,
+        "name": "food",
+        "number": 1,
+        "items": [
+            {
+                "_id": 1,
+                "name": "apple",
+                "group-id": 1
+            },
+            {
+                "_id": 2,
+                "name": "banana",
+                "group-id": 1
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "name": "medical",
+        "number": 2,
+        "items": [
+            {
+                "_id": 4,
+                "name": "advil",
+                "group-id": 2
+            }
+        ]
+    }
+]

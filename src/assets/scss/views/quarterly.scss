@@ -1,0 +1,42 @@
+.quarterly-section {
+    button {
+        width: 150px;
+        text-align: start;
+    }
+
+    .popup {
+        background-color: rgb(196, 214, 214);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-40%) translateY(-160%);
+        top: 20px;
+        padding: 5px;
+        border-radius: 10px;
+        z-index: 100;
+    }
+    .close-popup{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        width: min-content;
+    }
+
+    li {
+
+        margin-bottom: 10px;
+        button{
+            margin-inline-end: 5px;
+        }
+    }
+
+    .quarterly-row {
+        align-items: center;
+
+        >* {
+            flex: 1;
+            width: 100px;
+            white-space: nowrap;
+            // width: max-content;
+        }
+    }
+}

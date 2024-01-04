@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { i18Service } from "../services/i18n-service"
 import { itemService } from "../services/items-service"
+import { Link } from "react-router-dom"
 
 export const Items = () => {
 
@@ -16,7 +17,6 @@ export const Items = () => {
 
     useEffect(() => {
         translate()
-        console.log(12);
     }, [itemOpen])
 
     const openDepartment = (department) => {
@@ -53,7 +53,7 @@ export const Items = () => {
             setInput1(value)
             setInput2('')
         } else {
-            setItems(itemService.loadItems(value, depratmentOpen.id))
+            setItems(itemService.loadItems(value, depratmentOpen?.id))
             setShowItems(true)
             setInput2(value)
             setInput1('')
@@ -66,7 +66,7 @@ export const Items = () => {
     if (!items && !departments) return <div>Loading</div>
     return (
         <section className="items-container">
-            <h2 data-trans="items">items</h2>
+            <h2>{depratmentOpen ? <span data-trans="items">items</span> : <span data-trans="item groups">item groups</span>}</h2>
             {depratmentOpen && <h3>Results for <span className="bold"> {depratmentOpen.name}  ({depratmentOpen.id})</span> </h3>}
             {depratmentOpen && <button onClick={backToDepartments}>Back to department</button>}
             {!depratmentOpen && <input value={input1} type="text" onChange={onChangeFilter} name="department" className="input" placeholder="search department" />}
@@ -83,9 +83,6 @@ export const Items = () => {
                                 <button onClick={() => openItem(item._id)}>{item.name}</button>
                                 {(itemOpen === item._id) && <div>
                                     <p>Bar code - <span className="bold"> {item['bar-code']}</span></p>
-                                    {/* <p><span data-trans="Department"> Department</span>: <span data-trans={item["department-name"]} className="bold">
-                                        {item["department-name"]}</span></p>
-                                    <p><span data-trans="Department number">Department Number: </span> <span className="bold"> {item["department"]} </span></p> */}
                                 </div>}
                             </li>
                         )
@@ -93,6 +90,7 @@ export const Items = () => {
                 </ul>
             }
             <button onClick={toggleDev}>{!openDev ? ' למפתחים' : 'סגור'}</button>
+            <Link to='/addItem'>Add item</Link>
             {openDev && <pre>{JSON.stringify(items, null, 2)}</pre>}
         </section>
     )

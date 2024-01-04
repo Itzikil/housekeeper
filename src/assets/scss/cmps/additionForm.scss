@@ -1,4 +1,21 @@
 .additionForm {
+    position: relative;
+
+    .lastPurchases {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -400%;
+        background-color: rgb(249, 253, 253);
+        padding: 10px;
+        border-radius: 10px;
+
+        button {
+            padding: 0;
+            background-color: transparent;
+        }
+    }
+
     form {
         display: flex;
         flex-direction: column;
@@ -10,6 +27,7 @@
             width: 100%;
         }
 
+
         .input-container {
             display: flex;
             flex-wrap: wrap;
@@ -18,8 +36,44 @@
             justify-content: space-between;
 
             >* {
-                flex-basis: 40%;
+                flex-basis: 47%;
+                align-self: center;
+                // flex-wrap: wrap;
             }
+        }
+
+        .line-container {
+            width: 100%;
+
+            div {
+                >* {
+                    flex: 1;
+
+                    &:not(button) {
+                        width: 100%;
+                    }
+
+                    // >* &:first-child :not(button) {
+                    //     flex: 2;
+                    // }
+                }
+
+                input {
+                    align-self: center;
+                }
+
+                button {
+                    flex: 0.1;
+                }
+
+            }
+        }
+
+    }
+
+    @media (max-width: 600px) {
+        .input-container {
+            flex-direction: column;
         }
     }
 }

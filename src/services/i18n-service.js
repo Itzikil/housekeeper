@@ -8,9 +8,25 @@ export const i18Service = {
 }
 
 var gTrans = {
-    'supplier group': {
-        en: 'supplier group',
+    'Quarterly': {
+        en: 'Quarterly',
+        he: 'רבעון',
+    },
+    'quarterly': {
+        en: 'quarterly',
+        he: 'רבעון',
+    },
+    'order': {
+        en: 'order',
+        he: 'הזמנה',
+    },
+    'supplier groups': {
+        en: 'supplier groups',
         he: 'קבוצת ספקים',
+    },
+    'item groups': {
+        en: 'item groups',
+        he: 'קבוצת פריטים',
     },
     'Close form': {
         en: 'Close form',

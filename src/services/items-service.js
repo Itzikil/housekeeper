@@ -2,9 +2,12 @@ export const itemService = {
     loadItems,
     getItemById,
     getDepartments,
-    getItemByDepartment
+    getItemByDepartment,
+    getNewItem,
+    addItem
 }
 import demoItems from '../data/item.json'
+import { utilsService } from './utils-service'
 
 function loadItems(filterBy, department) {
     if (filterBy) {
@@ -53,3 +56,11 @@ function getDepartments(filterBy) {
     return sort(departments)
 }
 
+function getNewItem() {
+    return {name: '' , ['bar-code']: '' , department: '' , ['department-name']: ''}
+}
+
+function addItem(item) {
+    item._id = utilsService.makeId()
+    demoItems.push(item)
+}
