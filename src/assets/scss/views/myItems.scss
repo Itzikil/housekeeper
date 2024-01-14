@@ -1,0 +1,97 @@
+.myItems-container {
+
+    .add-group {
+        background-color: #be6426;
+    }
+
+    .remove-container {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #733c18;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        button:hover {
+            background-color: #b38e6c;
+        }
+    }
+
+    .items-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .item-li {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn {
+            width: 100px;
+            height: 40px;
+            font-size: 14px;
+        }
+
+
+        .main-item {
+            background-color: #f2f2db;
+        }
+
+        .add-sub-btn {
+            background-color: #a2ad84;
+            width: 120px;
+            font-size: 13px;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 10px;
+            align-items: baseline;
+
+            .update-btn {
+                background-color: #b38e6c;
+            }
+
+            .delete-btn {
+                background-color: #733c18;
+            }
+
+            .add-btn {
+                background-color: #5a6d50;
+            }
+        }
+
+
+        .edit-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .change-btn {
+                background-color: #efe3c1;
+            }
+
+        }
+
+        .subs {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+
+            >* {
+                background-color: #a2ad84;
+                text-align: center;
+                border-radius: 10px;
+                padding: 5px;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

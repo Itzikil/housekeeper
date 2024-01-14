@@ -14,6 +14,7 @@ import { Quarterly } from './views/Quarterly';
 import { Orders } from './views/Orders';
 import { AddItem } from './views/AddItem';
 import { MyItems } from './views/MyItems';
+import { MyGroups } from './views/MyGroups';
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
         <main className='main-container'>
           <Routes>
             <Route path="/myItems" element={< MyItems />} />
+            <Route path="/mySubGroups" element={< MyGroups />} />
+            <Route path="/myGroups" element={< MyGroups />} />
             <Route path="/addItem" element={< AddItem />} />
             <Route path="/addSupplier" element={< AddItem />} />
             <Route path="/suppliers" element={< Suppliers />} />

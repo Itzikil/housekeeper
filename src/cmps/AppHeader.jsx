@@ -24,6 +24,8 @@ export const AppHeader = () => {
                 <NavLink to="/summary" data-trans="summary">summary</NavLink>
                 <NavLink to="/assemblage" >assemblage</NavLink>
                 <NavLink to="/quarterly" data-trans="quarterly">quarterly</NavLink> */}
+                <NavLink to="/myGroups" data-trans="group">group</NavLink>
+                <NavLink to="/mySubGroups" data-trans="sub-group">sub-group</NavLink>
                 <NavLink to="/myItems" data-trans="item">items</NavLink>
                 <img src={language} alt="language" onClick={translate} />
             </div>

@@ -14,8 +14,8 @@ const STORAGE_KEY = 'item'
 var gItems = _loadItems()
 
 
-async function query() {
-    var items = await httpService.get(STORAGE_KEY)
+async function query(filterBy) {
+    var items = await httpService.get(STORAGE_KEY, filterBy)
     return items
     // return gItems
 }

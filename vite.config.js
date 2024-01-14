@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/housekeeper/',
+  // base: '/housekeeper/',
   plugins: [react()],
+  build:{
+    outDir: '../backend/public' ,
+    emptyOutDir: true,
+   }
 })

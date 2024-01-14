@@ -15,6 +15,7 @@ body {
         "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
     @media (max-width: 600px) {
         display: flex;
     }
@@ -68,23 +69,25 @@ input::-webkit-inner-spin-button {
 
 // MAC like scrollbar
 ::-webkit-scrollbar {
-    width: 8px;
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(206, 199, 199, 0.521);
+    -webkit-border-radius: 5px;
 }
 
 ::-webkit-scrollbar:hover {
-    background-color: rgba(0, 0, 0, 0.09);
+    // background-color: rgba(0, 0, 0, 0.09);
 }
 
-::-webkit-scrollbar-thumb:vertical {
-    background: rgba(0, 0, 0, 0.5);
-    -webkit-border-radius: 100px;
+::-webkit-scrollbar-thumb {
+    background: rgba(134, 131, 131, 0.5);
+    -webkit-border-radius: 5px;
 }
 
-::-webkit-scrollbar-thumb:vertical:active {
-    -webkit-border-radius: 100px;
+::-webkit-scrollbar-thumb:active {
+    background: rgba(134, 131, 131, 0.678);
 }
+
 
 .list {
     >* {
@@ -115,6 +118,6 @@ input::-webkit-inner-spin-button {
     }
 }
 
-a{
+a {
     color: rgb(66, 64, 64) !important;
 }

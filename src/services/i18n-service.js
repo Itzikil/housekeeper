@@ -16,6 +16,14 @@ var gTrans = {
         en: 'quarterly',
         he: 'רבעון',
     },
+    'group': {
+        en: 'group',
+        he: 'קבוצה',
+    },
+    'sub-group': {
+        en: 'sub-group',
+        he: 'תת-קבוצה',
+    },
     'order': {
         en: 'order',
         he: 'הזמנה',
@@ -179,10 +187,6 @@ var gTrans = {
     'search': {
         en: 'search',
         he: 'חפש',
-    },
-    'add-new-book': {
-        en: 'add-new-book',
-        he: 'הוסף ספר חדש',
     },
     'read': {
         en: 'read',
