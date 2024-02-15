@@ -5,6 +5,7 @@
     padding-inline: 32px;
     padding-block: 16px;
     align-items: center;
+
     .nav-links {
         display: flex;
         align-items: center;
@@ -15,4 +16,37 @@
         width: 50px;
         cursor: pointer;
     }
+
+    .on-mobile {
+        display: none;
+    }
+
+    @media (max-width:600px) {
+        .on-mobile {
+            display: block;
+        }
+
+
+        .nav-links {
+            position: fixed;
+            // left: 0;
+            top: 0;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(233, 243, 243);
+            width: 50%;
+            height: 100vh;
+            transition: 0.8s;
+            padding-top: 100px;
+            inset-inline-start: -100%;
+            // transform: translateX(-110%);
+            
+            &.open-nav {
+                inset-inline-start: 0px;
+                // transform: translateX(0%);
+            }
+        }
+
+    }
+
 }

@@ -113,10 +113,28 @@ export const AssemblageDemo = () => {
             backToGroups()
         }
     }
-
+    const groupHeight = (itemId) => {
+        var supplierBills = viewMode === 'items' ? billService.getItemSummary(itemId, 'department') : billService.getItemSummary(null, itemId)
+        var sum = utilsService.priceSum(supplierBills)
+        return !sum ? '' : sum / 500
+    }
+    const candleHeight = (groupId) => ({
+        height: groupHeight(groupId),
+        // backgroundColor: '#e0e0e0',
+    })
     // if (!suppliers) return <div>Loading</div>
     return (
         <section className="assemblage-container">
+            <div className="statistic">
+                <ul>
+                    {groups.map((group) => groupSum((group.id || group._id)) && <li key={group._id || group.id}>
+                        <div className="candle" style={candleHeight(group.id || group._id)}>
+                            <p className="number">{groupSum((group.id || group._id))}</p>
+                            <p className="name">{group.name}</p>
+                        </div>
+                    </li>)}
+                </ul>
+            </div>
             <h2>assemblage</h2>
             <button onClick={togglePage}>{viewMode === 'items' ? 'Show suppliers' : 'Show items'}</button>
             {showGroups && currGroup && <h3>Results for <span className="bold"> {currGroup.name} ({currGroup._id || currGroup.id})</span> </h3>}

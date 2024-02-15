@@ -16,7 +16,7 @@ var gGroups = _loadGroups()
 
 async function query() {
     var groups = await httpService.get(STORAGE_KEY)
-    return groups
+    return groups.sort((a, b) => a.number - b.number)
     // return gGroups
 }
 

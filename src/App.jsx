@@ -15,10 +15,10 @@ import { Orders } from './views/Orders';
 import { AddItem } from './views/AddItem';
 import { MyItems } from './views/MyItems';
 import { MyGroups } from './views/MyGroups';
+import { ItemPage } from './views/ItemPage';
 
 
 function App() {
-  
   useEffect(() => {
     translate()
   }, [])
@@ -34,6 +34,7 @@ function App() {
         <AppHeader />
         <main className='main-container'>
           <Routes>
+            <Route path="/itemPage" element={< ItemPage />} />
             <Route path="/myItems" element={< MyItems />} />
             <Route path="/mySubGroups" element={< MyGroups />} />
             <Route path="/myGroups" element={< MyGroups />} />

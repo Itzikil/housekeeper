@@ -94,4 +94,50 @@
             }
         }
     }
+
+    @media (max-width:600px) {
+        .add-form {
+            padding-top: 10px;
+
+            >* {
+                >* {
+                    flex-direction: column !important;
+                }
+
+            }
+        }
+
+        .notes {
+            padding-bottom: 15px;
+        }
+
+        .items-ul {
+            gap: 15px;
+            .item-li {
+                .main-item {
+                    // height: 140px;
+                }
+
+
+                .btn-container {
+                    justify-content: flex-end;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    gap: 1px;
+
+                    >* {
+                        
+                        >* {
+                            height: 50%;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .subs {
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+    }
 }

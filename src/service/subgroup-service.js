@@ -13,11 +13,15 @@ const STORAGE_KEY = 'subGroup'
 
 var gSubgroups = _loadSubgroups()
 
-
-async function query(filterBy) {
-    var subgroups = await httpService.get(STORAGE_KEY , filterBy)
-    return subgroups
-    // return gSubgroups
+async function query(filterBy, groups) {
+    var subgroups = await httpService.get(STORAGE_KEY, filterBy)
+    var sortedSubgroups = []
+    groups.forEach(group => {
+        var res = subgroups.filter(subgroup => subgroup.groupId === group._id)
+        res.sort((a, b) => a.number - b.number)
+        sortedSubgroups= [...sortedSubgroups , ...res]
+    });
+    return sortedSubgroups
 }
 
 function _loadSubgroups() {

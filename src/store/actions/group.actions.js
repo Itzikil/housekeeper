@@ -6,7 +6,7 @@ export function loadGroups() {
         try {
             const groups = await groupService.query()
             dispatch({ type: 'SET_GROUPS', groups })
-            return 'hello'
+            return groups
         } catch (err) {
             console.log('err:', err)
         }

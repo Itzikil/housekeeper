@@ -4,8 +4,8 @@ export function loadSubgroups(filterBy) {
 
     return async (dispatch, getState) => {
         try {
-            const subgroups = await subgroupService.query(filterBy)
-            console.log(subgroups);
+            var groups = getState().groupModule.groups
+            const subgroups = await subgroupService.query(filterBy , groups)
             dispatch({ type: 'SET_SUBGROUPS', subgroups })
             return subgroups
         } catch (err) {

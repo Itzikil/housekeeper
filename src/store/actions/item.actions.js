@@ -4,8 +4,8 @@ export function loadItems(filterBy) {
     
     return async (dispatch, getState) => {
         try {
-            const items = await itemService.query(filterBy)
-            console.log(items);
+            var subgroups = getState().subgroupModule.subgroups
+            const items = await itemService.query(filterBy , subgroups)
             dispatch({ type: 'SET_ITEMS', items })
             return items
         } catch (err) {

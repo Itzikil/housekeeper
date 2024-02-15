@@ -5,6 +5,8 @@ import { loadItems } from '../store/actions/item.actions'
 import { useDispatch, useSelector } from 'react-redux'
 import { useLocation } from "react-router-dom"
 import { AddItems } from "../cmps/AddItems"
+import { i18Service } from '../services/i18n-service';
+
 
 export const MyGroups = () => {
     const dispatch = useDispatch()
@@ -14,16 +16,30 @@ export const MyGroups = () => {
     const [GroupEdit, setGroupEdit] = useState('')
     const [newSub, setNewSub] = useState({ name: '', groupId: '' })
     const [addSub, setAddSub] = useState('')
-    const [Path, setPath] = useState(params.pathname)
+    const [groupPath, setGroupPath] = useState(params.pathname === '/myGroups')
     const [editable, setEditable] = useState('false')
+    const [openBtns, setOpenBtns] = useState('')
     const [openRemove, setOpenRemove] = useState('')
     const [showSub, setShowSub] = useState([])
-    const groups = useSelector(state => params.pathname === '/mySubGroups' ? state.subgroupModule.subgroups : state.groupModule.groups)
+    const groups = useSelector(state => !groupPath ? state.subgroupModule.subgroups : state.groupModule.groups)
 
     useEffect(() => {
-        dispatch(params.pathname === '/mySubGroups' ? loadSubgroups() : loadGroups())
-        setPath(params.pathname)
+        setGroupPath(params.pathname === '/myGroups')
+        loadToGroups()
     }, [params])
+
+    useEffect(() => {
+        i18Service.setLang()
+        i18Service.doTrans()
+    }, [showSub])
+    
+    
+    const loadToGroups = async() => {
+        await dispatch(loadGroups())
+        params.pathname !== '/myGroups' ? await dispatch(loadSubgroups()) : ''
+        i18Service.setLang()
+        i18Service.doTrans()
+    }
 
     const openForm = () => {
         setform(!form)
@@ -44,7 +60,7 @@ export const MyGroups = () => {
     const removeGroups = (groupId) => {
         console.log('working but too dangerous');
 
-        // dispatch(params.pathname === '/mySubGroups' ? removeSubgroup(groupId): removeGroup(groupId))
+        // dispatch(!groupPath ? removeSubgroup(groupId): removeGroup(groupId))
         // setOpenRemove('')
     }
 
@@ -55,14 +71,13 @@ export const MyGroups = () => {
     }
 
     const showSubs = async (group) => {
-        //    if (Path === '/mySubGroups') return console.log('not yet');
+        //    if (!groupPath) return console.log('not yet');
         if (group._id === showSub._id) { return setShowSub('') }
         try {
             var filterBy = { group: group._id }
-            if (Path === '/mySubGroups') {
+            if (!groupPath) {
                 var subs = await dispatch(loadItems(filterBy));
             } else var subs = await dispatch(loadSubgroups(filterBy));
-            console.log(subs);
             var newSubs = { "sub": subs, "_id": group._id }
             setShowSub(newSubs);
         } catch (error) {
@@ -107,12 +122,18 @@ export const MyGroups = () => {
 
     return (
         <section className="myItems-container">
-            <h2>{groups?.length} {Path === '/myGroups' ? 'Groups' : 'Sub-gorups'}</h2>
-            <h4>הערה1: אפשר ללחוץ על הקבוצה/תת-קבוצה ולקבל את הילדים שלה</h4>
-            <h4>הערה2: אפשר להוסיף לעדכן ולמחוק, כרגע ביטלתי כדי שלא יצור באגים</h4>
-            <h4>הערה3: כרגע לחיצה על הילדים לא עושה כלום , אבל אפשר לראות שמקבלים אותם ואפשר להשתמש בהם</h4>
-            <button onClick={openForm} className="add-group">{form ? 'Close inputs' : Path === '/myGroups' ? 'Add groups' : 'Add Sub-gorups'}</button>
-            {form ? <AddItems /> : ''}
+            <h2>{groups?.length} {groupPath ? 'Groups' : 'Sub-gorups'}</h2>
+            <div className="notes">
+                <h4>הערה1: אפשר ללחוץ על הקבוצה/תת-קבוצה ולקבל את הילדים שלה</h4>
+                <h4>הערה2: אפשר להוסיף לעדכן ולמחוק, כרגע ביטלתי כדי שלא יצור באגים</h4>
+                <h4>הערה3: כרגע לחיצה על הילדים לא עושה כלום , אבל אפשר לראות שמקבלים אותם ואפשר להשתמש בהם</h4>
+                <h4>הערה4: אפשר לפתוח בפלאפון </h4>
+            </div>
+            <button onClick={openForm} className="add-group">{form ? 'Close inputs' : groupPath ? 'Add groups' : 'Add Sub-gorups'}</button>
+            {form ? <div className="add-form">
+                <AddItems />
+            </div>
+                : ''}
             {openRemove && <div className="remove-container">
                 <p>are you sure you want to delete?</p>
                 <button onClick={() => removeGroups(openRemove)}>yes</button>
@@ -122,7 +143,7 @@ export const MyGroups = () => {
                 {groups?.map((group) =>
                     <li key={group?._id}>
                         <div className="item-li">
-                            <button className="main-item" onClick={() => showSubs(group)}>{group?.name}</button>
+                            <button className="main-item" onClick={() => showSubs(group)} data-trans={group?.name}>{group?.name}</button>
                             {addSub === group._id && <form >
                                 <input type="text" name="subname" value={newSub.name} onChange={handleChange} placeholder="name" />
                                 <button onClick={addNewSub} className="add-sub-btn btn">Add subgroup</button>
@@ -142,7 +163,7 @@ export const MyGroups = () => {
                         {showSub._id && showSub._id === group._id && <ul className="subs">
                             {showSub['sub']?.map((sub) =>
                                 <li key={sub.name}>
-                                    <p>{sub.name}</p>
+                                    <p data-trans={sub?.name}>{sub.name}</p>
                                 </li>
                             )}
                         </ul>}

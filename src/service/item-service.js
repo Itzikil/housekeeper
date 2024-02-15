@@ -14,9 +14,15 @@ const STORAGE_KEY = 'item'
 var gItems = _loadItems()
 
 
-async function query(filterBy) {
+async function query(filterBy, subgroups) {
     var items = await httpService.get(STORAGE_KEY, filterBy)
-    return items
+    var sortedItems = []
+    subgroups.forEach(sub => {
+        var res = items.filter(item => item.subgroupId === sub._id)
+        res.sort((a, b) => a.number - b.number)
+        sortedItems= [...sortedItems , ...res]
+    });
+    return sortedItems
     // return gItems
 }
 

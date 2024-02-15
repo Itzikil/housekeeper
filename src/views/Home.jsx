@@ -11,7 +11,7 @@ export const Home = ({translate}) => {
     // }
 
     return (
-        <section>
+        <section className="home">
             <h1 data-trans="household">Household</h1>
         </section>
     )
