@@ -16,6 +16,7 @@ import { AddItem } from './views/AddItem';
 import { MyItems } from './views/MyItems';
 import { MyGroups } from './views/MyGroups';
 import { ItemPage } from './views/ItemPage';
+import { ShopList } from './views/ShopList';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <AppHeader />
         <main className='main-container'>
           <Routes>
+            <Route path="/shopList" element={< ShopList />} />
             <Route path="/itemPage" element={< ItemPage />} />
             <Route path="/myItems" element={< MyItems />} />
             <Route path="/mySubGroups" element={< MyGroups />} />
