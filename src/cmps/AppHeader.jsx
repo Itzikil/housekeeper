@@ -34,8 +34,8 @@ export const AppHeader = () => {
                 <NavLink to="/summary" data-trans="summary">summary</NavLink>
                 <NavLink to="/quarterly" data-trans="quarterly">quarterly</NavLink> */}
                 <NavLink to="/shopList" >Shopping list</NavLink>
-                <NavLink to="/assemblage" >assemblage</NavLink>
-                <NavLink to="/itemPage" data-trans="List">List</NavLink>
+                {/* <NavLink to="/assemblage" >assemblage</NavLink> */}
+                {/* <NavLink to="/itemPage" data-trans="List">List</NavLink> */}
                 <NavLink to="/myGroups" data-trans="group">group</NavLink>
                 <NavLink to="/mySubGroups" data-trans="sub-group">sub-group</NavLink>
                 <NavLink to="/myItems" data-trans="item">items</NavLink>

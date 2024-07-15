@@ -66,24 +66,6 @@ export const ShopList = () => {
     return (
         <section className="shop-list-container">
             <h2>Shop List</h2>
-            {shopList.length ? <div>
-                <ul className="shop-list">
-                    {shopList.map(item =>
-                        <li key={item._id} className={item.checked ? 'checked' : ''}>
-                            <label>
-                                <input
-                                    type="checkbox"
-                                    checked={item.checked}
-                                    onChange={() => handleCheckboxChange(item.id)}
-                                />
-                                {item.name}
-                            </label>
-                        </li>
-                    )}
-                </ul>
-                <button onClick={clearList} >clear</button>
-            </div>
-                : <p>Your cart is empty</p>}
             <p>{groups?.length} <span data-trans="results"> results</span></p>
             <div className="notes">
             </div>
@@ -102,14 +84,34 @@ export const ShopList = () => {
                     }
                 </div>}
             </div>
-            <ul className="item-list">
-                {groups?.map((group) =>
-                    <li key={group._id} className={`${shopList.some((item) => item._id === group._id) ? "picked" : ""}`}>
-                        <button onClick={() => showKids(group)} className="item-name" data-trans={group.name}>
-                            <p>{group.name}</p>
-                        </button>
-                    </li>)}
-            </ul>
+            <div className="shop-list-main">
+                <ul className="item-list">
+                    {groups?.map((group) =>
+                        <li key={group._id} className={`${shopList.some((item) => item._id === group._id) ? "picked" : ""}`}>
+                            <button onClick={() => showKids(group)} className="item-name" >
+                                <p data-trans={group.name}>{group.name}</p>
+                            </button>
+                        </li>)}
+                </ul>
+                {shopList.length ? <div>
+                    <ul className="shop-list">
+                        {shopList.map(item =>
+                            <li key={item._id} className={item.checked ? 'checked' : ''}>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        checked={item.checked}
+                                        onChange={() => handleCheckboxChange(item.id)}
+                                    />
+                                    {item.name}
+                                </label>
+                            </li>
+                        )}
+                    </ul>
+                    <button onClick={clearList} >clear</button>
+                </div>
+                    : <p>Your cart is empty</p>}
+            </div>
             {/* <pre>{JSON.stringify(groups, null, 2)}</pre> */}
         </section>
     )
